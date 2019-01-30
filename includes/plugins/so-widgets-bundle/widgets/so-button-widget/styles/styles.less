@@ -1,0 +1,61 @@
+@button_color: default;
+@text_color: default;
+
+@font_size: 1em;
+@rounding: 0.25em;
+@padding: 1em;
+@has_text: true;
+
+.background( @button_color ) when not ( @button_color = default ) {
+	background: @button_color;
+}
+
+.background_hover( @button_color ) when not ( @button_color = default ) {
+	background: darken( @button_color, 8% );
+}
+
+.fontcolor( @text_color ) when not ( @text_color = default ) {
+	color: @text_color;
+}
+
+.box_shadow( @button_color ) when not ( @button_color = default ) {
+	-webkit-box-shadow: inset 0px 0px 0px 1px darken( @button_color, 16% ), inset 0px 2px 0 0 rgba(255, 255, 255, 0.1);
+	-moz-box-shadow: inset 0px 0px 0px 1px darken( @button_color, 16% ), inset 0px 2px 0 0 rgba(255, 255, 255, 0.1);
+	box-shadow: inset 0px 0px 0px 1px darken( @button_color, 16% ), inset 0px 2px 0 0 rgba(255, 255, 255, 0.1);
+}
+
+
+/* Styles
+----------------------------------------------- */
+
+.ow-button-base {
+
+	a {
+		.background(@button_color);
+		.fontcolor(@text_color);
+		.box_shadow(@button_color);
+
+        .sow-icon-image,
+        [class^="sow-icon-"] {
+            .icon-margins() when (@has_text = true) {
+                margin: 0 0.25em 0 0;
+            }
+            .icon-margins() when not (@has_text = true) {
+                margin: 0;
+            }
+            .icon-margins();
+            font-size: 1em;
+            display: inline-block;
+            float: none;
+        }
+
+		.sow-icon-image {
+			font-size: unit(16/14,em);
+		}
+
+		&.ow-button-hover:hover{
+			.background_hover(@button_color);
+		}
+	}
+
+}

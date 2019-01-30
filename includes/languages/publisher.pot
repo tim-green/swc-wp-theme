@@ -1,0 +1,3023 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Publisher\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-06 18:44+0700\n"
+"PO-Revision-Date: 2015-09-27 14:51+0700\n"
+"Last-Translator: Hypha\n"
+"Language-Team: Hypha <hypha.labs@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_US\n"
+"X-Poedit-KeywordsList: _e;__;_nx;_n:1,2;_x:1,2c;_ex:1,2c;_nx:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../bbpress/loop-forums.php:19
+#: ../../includes/plugins/bbpress/bbpress.php:95
+msgid "Forum"
+msgstr ""
+
+#: ../../bbpress/loop-forums.php:20
+msgid "Topics"
+msgstr ""
+
+#: ../../bbpress/loop-forums.php:20 ../../bbpress/loop-topics.php:20
+msgid "Replies"
+msgstr ""
+
+#: ../../bbpress/loop-forums.php:20 ../../bbpress/loop-topics.php:20
+msgid "Posts"
+msgstr ""
+
+#: ../../bbpress/loop-forums.php:21 ../../bbpress/loop-topics.php:21
+msgid "Freshness"
+msgstr ""
+
+#: ../../bbpress/loop-search-forum.php:23
+#, php-format
+msgid "Last updated %s"
+msgstr ""
+
+#: ../../bbpress/loop-search-forum.php:33
+msgid "Forum: "
+msgstr ""
+
+#: ../../bbpress/loop-search-reply.php:51
+msgid "In reply to: "
+msgstr ""
+
+#: ../../bbpress/loop-search-topic.php:53
+msgid "Topic: "
+msgstr ""
+
+#: ../../bbpress/loop-search-topic.php:60
+msgid "in group forum "
+msgstr ""
+
+#: ../../bbpress/loop-search-topic.php:64
+msgid "in forum "
+msgstr ""
+
+#: ../../bbpress/loop-search.php:19 ../../bbpress/loop-search.php:40
+msgid "Search Results"
+msgstr ""
+
+#: ../../bbpress/loop-search.php:36 ../../includes/admin/customizer.php:2439
+msgid "Author"
+msgstr ""
+
+#: ../../bbpress/loop-single-forum.php:53
+#, php-format
+msgid "%1$s Topics"
+msgstr ""
+
+#: ../../bbpress/loop-single-forum.php:54
+#: ../../bbpress/loop-single-topic.php:90
+#, php-format
+msgid "%1$s Posts"
+msgstr ""
+
+#: ../../bbpress/loop-single-reply.php:63
+msgid "in reply to: "
+msgstr ""
+
+#: ../../bbpress/loop-single-topic.php:73
+#, php-format
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: ../../bbpress/loop-single-topic.php:89
+#, php-format
+msgid "%1$s Voices"
+msgstr ""
+
+#: ../../bbpress/loop-topics.php:19
+msgid "Topic"
+msgstr ""
+
+#: ../../bbpress/loop-topics.php:20
+msgid "Voices"
+msgstr ""
+
+#: ../../comments.php:25
+msgid "Discussion"
+msgstr ""
+
+#: ../../comments.php:30
+msgid "No Responses"
+msgstr ""
+
+#: ../../comments.php:30
+msgid "1 Response"
+msgstr ""
+
+#: ../../comments.php:30
+msgid "% Responses"
+msgstr ""
+
+#: ../../comments.php:46
+msgid "Comments are closed."
+msgstr ""
+
+#: ../../comments.php:55
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../../comments.php:56
+msgid "Leave A Reply"
+msgstr ""
+
+#: ../../comments.php:58
+#, php-format
+msgid "<span class=\"logged-in-as-text\">Logged in as</span>%1$s<a class=\"user-identity\" href=\"%2$s\">%3$s</a><a class=\"log-out-text\" href=\"%4$s\" title=\"%5$s\">%6$s</a>"
+msgstr ""
+
+#: ../../comments.php:63
+msgid "Log out of this account"
+msgstr ""
+
+#: ../../comments.php:64
+msgid "Log Out ?"
+msgstr ""
+
+#: ../../comments.php:77
+msgid "Comment navigation"
+msgstr ""
+
+#: ../../comments.php:82
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../../comments.php:86
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../../functions.php:84
+msgid "Primary Menu"
+msgstr ""
+
+#: ../../functions.php:85
+msgid "Header Left Menu"
+msgstr ""
+
+#: ../../functions.php:86
+msgid "Header Right Menu"
+msgstr ""
+
+#: ../../functions.php:87
+msgid "Footer Menu"
+msgstr ""
+
+#: ../../functions.php:280 ../../includes/admin/customizer.php:2075
+#: ../../includes/admin/metabox.php:135
+msgid "Sidebar"
+msgstr ""
+
+#: ../../functions.php:282
+msgid "Appears in the main content area when widgets are active."
+msgstr ""
+
+#: ../../functions.php:290 ../../includes/admin/customizer.php:733
+#: ../../includes/admin/customizer.php:2205
+msgid "Footer"
+msgstr ""
+
+#: ../../functions.php:292
+msgid "Appears at the bottom of the site when widgets are active. Go to theme options to set the number of columns."
+msgstr ""
+
+#: ../../functions.php:321
+msgctxt "Heading font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../../functions.php:322
+msgctxt "Content font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:27
+msgid "General Settings"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:30
+msgid "General"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:102
+msgid "Hide Site Tagline"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:112
+msgid "Logo Upload"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:125
+msgid "Retina-Ready Logo"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:127
+msgid "Ensures sharp rendering on retina displays. Logo should be 2x the desired size."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:139
+msgid "Sidebar Alignment"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:140
+msgid "Set the position of the main sidebar."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:144
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:94
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-features-widget/so-features-widget.php:51
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-image-widget/so-image-widget.php:26
+msgid "Left"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:145
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:96
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-features-widget/so-features-widget.php:53
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-image-widget/so-image-widget.php:28
+msgid "Right"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:158
+#: ../../includes/admin/customizer.php:698
+msgid "Time Format"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:161
+msgid "Set the time format for all posts."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:163
+#: ../../includes/admin/customizer.php:703
+#: ../../includes/admin/customizer.php:2440
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:134
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:162
+msgid "Date"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:164
+#: ../../includes/admin/customizer.php:704
+msgid "Time Ago"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:176
+msgid "Publisher Options"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:192
+msgid "Front Page Title"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:196
+msgid "Title for the front page header."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:206
+msgid "Front Page Description"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:210
+msgid "Description for the front page header."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:220
+msgid "Front Page Button Text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:224
+msgid "Text for the front page button."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:234
+msgid "Front Page Button URL"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:238
+msgid "URL for the front page button."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:247
+msgid "Front Page Header Image"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:250
+msgid "Custom image for the front page header. If not set, will use the default featured header image instead."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:260
+msgid "Front Page Shortcode"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:264
+msgid "Insert a shortcode to show in the front page header. This will override all other front page settings."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:275
+msgid "Keep Header Image"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:285
+#: ../../includes/admin/customizer.php:1557
+msgid "Navigation"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:297
+msgid "Menu Search Bar"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:301
+msgid "Show search in the menu bar."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:303
+#: ../../includes/admin/customizer.php:322
+#: ../../includes/admin/customizer.php:360
+#: ../../includes/admin/customizer.php:430
+#: ../../includes/admin/customizer.php:518
+#: ../../includes/admin/customizer.php:537
+#: ../../includes/admin/customizer.php:622
+#: ../../includes/admin/customizer.php:1167
+#: ../../includes/admin/customizer.php:1186
+#: ../../includes/admin/customizer.php:1316
+#: ../../includes/admin/metabox.php:140
+#: ../../includes/plugins/bbpress/bbpress.php:141
+#: ../../includes/plugins/bbpress/bbpress.php:160
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:280
+#: ../../includes/plugins/woocommerce/woocommerce.php:200
+#: ../../includes/plugins/woocommerce/woocommerce.php:219
+#: ../../includes/plugins/woocommerce/woocommerce.php:259
+msgid "Show"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:304
+#: ../../includes/admin/customizer.php:323
+#: ../../includes/admin/customizer.php:361
+#: ../../includes/admin/customizer.php:431
+#: ../../includes/admin/customizer.php:519
+#: ../../includes/admin/customizer.php:538
+#: ../../includes/admin/customizer.php:623
+#: ../../includes/admin/customizer.php:1168
+#: ../../includes/admin/customizer.php:1187
+#: ../../includes/admin/customizer.php:1317
+#: ../../includes/admin/metabox.php:141
+#: ../../includes/plugins/bbpress/bbpress.php:142
+#: ../../includes/plugins/bbpress/bbpress.php:161
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:281
+#: ../../includes/plugins/woocommerce/woocommerce.php:201
+#: ../../includes/plugins/woocommerce/woocommerce.php:220
+#: ../../includes/plugins/woocommerce/woocommerce.php:260
+msgid "Hide"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:316
+msgid "Menu Taxonomy Color"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:320
+msgid "Show taxonomy color in the menu bar."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:336
+msgid "Posts Page Pagination"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:339
+#: ../../includes/admin/customizer.php:1237
+msgid "Select the posts pagination style."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:341
+#: ../../includes/admin/customizer.php:642
+#: ../../includes/admin/customizer.php:722
+#: ../../includes/admin/customizer.php:1239
+#: ../../includes/admin/customizer.php:1336
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:335
+msgid "Prev / Next"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:342
+#: ../../includes/admin/customizer.php:380
+#: ../../includes/admin/customizer.php:723
+#: ../../includes/admin/customizer.php:1240
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:336
+msgid "Numeric"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:355
+msgid "Posts Single Breadcrumbs"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:358
+msgid "Show or hide the breadcrumbs."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:374
+msgid "Page Links Display"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:377
+msgid "Select the page links style."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:379
+msgid "Page X of Y"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:390
+msgid "Pages"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:391
+msgid "The default settings for every published page."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:403
+msgid "Page Layout"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:407
+msgid "Set the default page layout."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:409
+#: ../../includes/admin/customizer.php:475
+#: ../../includes/admin/customizer.php:601
+#: ../../includes/admin/customizer.php:1125
+#: ../../includes/admin/customizer.php:1268
+#: ../../includes/admin/metabox.php:114
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:220
+msgid "Standard"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:410
+#: ../../includes/admin/customizer.php:602
+#: ../../includes/admin/customizer.php:1269
+#: ../../includes/admin/metabox.php:120
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:223
+msgid "Cover"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:411
+#: ../../includes/admin/customizer.php:603
+#: ../../includes/admin/customizer.php:1270
+#: ../../includes/admin/metabox.php:126
+msgid "Wide"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:412
+#: ../../includes/admin/customizer.php:604
+#: ../../includes/admin/customizer.php:1271
+#: ../../includes/admin/metabox.php:132
+msgid "Banner"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:424
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:428
+msgid "Set the default page sidebar layout."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:442
+msgid "Page Details"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:446
+msgid "Hide the following page details."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:456
+msgid "Posts Page"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:457
+msgid "The default settings for every posts page, including archives and search results."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:469
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:212
+msgid "Posts Page Layout"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:473
+msgid "Set the default posts page layout."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:476
+#: ../../includes/admin/customizer.php:1126
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:221
+msgid "List"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:477
+#: ../../includes/admin/customizer.php:1127
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:222
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:110
+msgid "Grid"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:489
+msgid "Posts Page Columns"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:493
+msgid "Set the number of columns to show."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:495
+#: ../../includes/admin/customizer.php:766
+#: ../../includes/admin/customizer.php:1145
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:253
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:126
+#: ../../includes/plugins/woocommerce/woocommerce.php:164
+msgid "1"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:496
+#: ../../includes/admin/customizer.php:767
+#: ../../includes/admin/customizer.php:1146
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:254
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:127
+#: ../../includes/plugins/woocommerce/woocommerce.php:165
+msgid "2"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:497
+#: ../../includes/admin/customizer.php:768
+#: ../../includes/admin/customizer.php:1147
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:255
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:128
+#: ../../includes/plugins/woocommerce/woocommerce.php:166
+msgid "3"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:498
+#: ../../includes/admin/customizer.php:769
+#: ../../includes/admin/customizer.php:1148
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:256
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:129
+#: ../../includes/plugins/woocommerce/woocommerce.php:167
+msgid "4"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:499
+#: ../../includes/admin/customizer.php:770
+#: ../../includes/admin/customizer.php:1149
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:257
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:130
+#: ../../includes/plugins/woocommerce/woocommerce.php:168
+msgid "5"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:512
+msgid "Posts Page Sidebar"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:516
+msgid "Set the default posts page sidebar layout."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:531
+#: ../../includes/admin/customizer.php:1180
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:263
+msgid "Post Format Icon"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:535
+#: ../../includes/admin/customizer.php:1184
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:264
+msgid "Set the default post format icon display."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:550
+#: ../../includes/admin/customizer.php:1199
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:287
+msgid "Show Content"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:554
+#: ../../includes/admin/customizer.php:1203
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:288
+msgid "Display the post content."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:556
+#: ../../includes/admin/customizer.php:641
+#: ../../includes/admin/customizer.php:1205
+#: ../../includes/admin/customizer.php:1335
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:160
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:304
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:334
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-features-widget/so-features-widget.php:31
+msgid "None"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:557
+#: ../../includes/admin/customizer.php:1206
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:305
+msgid "Excerpt"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:558
+#: ../../includes/admin/customizer.php:1207
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:306
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:317
+msgid "Full"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:569
+#: ../../includes/admin/customizer.php:1218
+#: ../../includes/template-tags/template-tags.php:2002
+msgid "Read More"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:573
+msgid "Text for the read more link."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:582
+msgid "Posts Single"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:583
+msgid "The default settings for the single post page, including custom post types."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:595 ../../includes/admin/metabox.php:49
+msgid "Post Layout"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:599
+msgid "Set the default post layout"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:616
+msgid "Post Sidebar"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:620
+msgid "Set the default post sidebar layout"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:636
+msgid "Post Pagination"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:639
+msgid "Select the post pagination style"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:643
+#: ../../includes/admin/customizer.php:1337
+msgid "Post Image"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:644
+#: ../../includes/admin/customizer.php:1338
+#: ../../includes/template-tags/single-tags.php:243
+msgid "Next Up"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:655
+#: ../../includes/admin/customizer.php:2447
+#: ../../includes/template-tags/single-tags.php:124
+msgid "Related Posts"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:659
+msgid "Text for the related posts section."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:669
+msgid "Post Details"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:673
+msgid "Hide the following post details"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:684
+#: ../../includes/admin/customizer.php:2441
+msgid "Comments"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:685
+msgid "The following options affect the comments section of posts/pages."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:701
+msgid "Select the comment time format."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:717
+msgid "Pagination Style"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:720
+msgid "Select the comment pagination format."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:745
+msgid "Footer Cap"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:746
+msgid "Sets the page content to show above the footer."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:759
+msgid "Footer Columns"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:760
+msgid "Sets the number of columns in the footer."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:765
+msgid "0"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:782
+msgid "Footer Tagline"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:783
+msgid "Custom tagline for the footer."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:795
+msgid "Advanced"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:806
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:810
+msgid "Number of words to show in the excerpt. Default is 35."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:820
+msgid "Featured Terms"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:824
+msgid "Select the terms to display a featured icon."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:836
+msgid "Taxonomy Image and Color"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:840
+msgid "Select taxonomies to enable a custom header image and color selection."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:852
+msgid "Custom Post Type Options"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:856
+msgid "Select post types to enable customized options. You must refresh this page in order to see the new options."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:868
+msgid "Hide Terms"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:872
+msgid "Hide the selected terms from appearing in main listings. Only hides from displaying."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:885
+msgid "Sections"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:895
+msgid "Call To Action"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:906
+msgid "CTA Text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:910
+msgid "Text for the call to action"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:920
+msgid "CTA Button Text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:924
+msgid "Text for the call to action button"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:934
+msgid "CTA URL"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:938
+msgid "Link for the call to action"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:947
+msgid "CTA Text Color"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:958
+msgid "CTA Background Color"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:969
+msgid "CTA Background Image"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:982
+msgid "CTA Background Image Style"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:987
+msgid "Full Cover"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:988
+msgid "Tiled"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:998
+#: ../../includes/template-tags/header-tags.php:598
+msgid "Leaderboard"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1008
+msgid "Leaderboard Image"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1020
+msgid "Leaderboard Title"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1021
+msgid "Title for the leaderboard image. Not displayed."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1034
+msgid "Leaderboard URL"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1035
+msgid "URL for the leaderboard image."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1057
+#, php-format
+msgid "CPT : %s"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1067
+#, php-format
+msgid "%s Page"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1078
+#, php-format
+msgid "%s Page Title"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1082
+#, php-format
+msgid "Title for the %s page header"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1092
+#, php-format
+msgid "%s Page Description"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1096
+#, php-format
+msgid "Description for the %s page header"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1105
+#, php-format
+msgid "%s Page Header Image"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1108
+#: ../../includes/admin/customizer.php:1464
+msgid "The default image for the featured header section."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1119
+#, php-format
+msgid "%s Page layout"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1123
+#, php-format
+msgid "Set the default %s page layout"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1139
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:236
+msgid "Post Columns"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1143
+msgid "Applicable only if using the Grid layout"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1161
+#, php-format
+msgid "%s Page Sidebar"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1165
+#, php-format
+msgid "Set the default %s page sidebar layout"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1222
+msgid "Text for the read more link"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1234
+#, php-format
+msgid "%s Page Pagination"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1250
+#, php-format
+msgid "%s Single"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1262
+#, php-format
+msgid "%s Layout"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1266
+#, php-format
+msgid "Set the default %s single layout"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1283
+#, php-format
+msgid "%s Archive Home"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1297
+msgid "Use Default Archive"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1298
+msgid "Set a custom archive link page, or use the default one. If set, will display in the breadcrumbs."
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1310
+#, php-format
+msgid "%s Sidebar"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1314
+#, php-format
+msgid "Set the default %s single sidebar layout"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1330
+#, php-format
+msgid "%s Pagination"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1333
+#, php-format
+msgid "Select the %s single pagination style"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1349
+#, php-format
+msgid "Related %s"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1353
+#, php-format
+msgid "Text for the related %s section"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1363
+#, php-format
+msgid "%s Details"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1367
+#, php-format
+msgid "Hide the following %s details"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1378
+msgid "Extras"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1390
+msgid "Category Select"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1394
+msgid "Select the term to replace the category"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1406
+msgid "Tag Select"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1410
+msgid "Select the term to replace the tag"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1426
+msgid "Images"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1446
+msgid "Header Image Opacity"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1463
+#: ../../includes/admin/customizer.php:1722
+msgid "Featured Header"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1474
+msgid "Default Image"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1485
+#: ../../includes/admin/customizer.php:1496
+msgid "Footer Image"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1513
+msgid "Footer Image Opacity"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1530
+msgid "Colors"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1545
+msgid "Accent"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1548
+msgid "Accent color for the theme"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1558
+msgid "The following sets the colors of the default primary menu"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1568
+#: ../../includes/admin/customizer.php:1650
+#: ../../includes/admin/customizer.php:1732
+msgid "Base Color"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1569
+msgid "Color for the menu background"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1580
+msgid "Menu Item"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1581
+msgid "Color for the first level menu items"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1592
+msgid "Menu Item Active"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1593
+msgid "Color for the active menu items"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1604
+msgid "Menu Description"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1605
+msgid "Color for the first level menu descriptions"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1616
+msgid "Menu Description Active"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1617
+msgid "Color for the active menu descriptions"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1628
+msgid "Submenu Base Color"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1629
+msgid "Color for the submenu background"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1640
+msgid "Header"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1651
+msgid "Color for the header background"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1662
+msgid "Site Title"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1663
+msgid "Color for the site title"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1674
+msgid "Site Description"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1675
+msgid "Color for the site description"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1686
+msgid "Headband"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1687
+msgid "Color for the headband"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1698
+msgid "Headband Title"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1699
+msgid "Color for the headband titles"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1710
+msgid "Headband Link"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1711
+msgid "Color for the headband links"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1733
+msgid "Color for the featured header base"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1744
+msgid "Titles Color"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1745
+msgid "Color for the featured header titles without an image"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1756
+msgid "Text Color"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1757
+msgid "Color for the featured header text without an image"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1768
+#: ../../includes/admin/customizer.php:1944
+#: ../../includes/admin/customizer.php:2027
+#: ../../includes/admin/customizer.php:2157
+#: ../../includes/admin/customizer.php:2263
+msgid "Button Base"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1769
+msgid "Color for the buttons base"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1780
+#: ../../includes/admin/customizer.php:2039
+#: ../../includes/admin/customizer.php:2275
+msgid "Button Text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1781
+#: ../../includes/admin/customizer.php:1957
+msgid "Color for the buttons text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1792
+#: ../../includes/admin/customizer.php:1968
+#: ../../includes/admin/customizer.php:2051
+#: ../../includes/admin/customizer.php:2181
+#: ../../includes/admin/customizer.php:2287
+msgid "Button Base Active"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1793
+#: ../../includes/admin/customizer.php:1969
+#: ../../includes/admin/customizer.php:2052
+#: ../../includes/admin/customizer.php:2182
+#: ../../includes/admin/customizer.php:2288
+msgid "Color for the button base when active or hovered"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1804
+#: ../../includes/admin/customizer.php:1980
+#: ../../includes/admin/customizer.php:2063
+#: ../../includes/admin/customizer.php:2193
+#: ../../includes/admin/customizer.php:2299
+msgid "Button Text Active"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1805
+#: ../../includes/admin/customizer.php:1981
+#: ../../includes/admin/customizer.php:2064
+#: ../../includes/admin/customizer.php:2194
+#: ../../includes/admin/customizer.php:2300
+msgid "Color for the button text when active or hovered"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1816
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:56
+msgid "Content"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1826
+msgid "Primary Headings"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1829
+msgid "Color for the main headings, blockquotes"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1838
+msgid "Primary Text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1841
+msgid "Color for the main text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1850
+msgid "Secondary Headings"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1853
+msgid "Color for the secondary headings"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1862
+msgid "Secondary Text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1865
+msgid "Color for the secondary text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1874
+msgid "Content Titles"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1877
+msgid "Color for the content titles"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1886
+msgid "Content Box Base"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1887
+msgid "Color for the content box base"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1898
+msgid "Content Elements"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1908
+msgid "Category Base"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1909
+msgid "Color for the category base"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1920
+msgid "Category Text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1921
+msgid "Color for the category text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1932
+msgid "Icon Base"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1933
+msgid "Color for the icon base, gallery icon, shop status"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1945
+msgid "Color for the buttons base, read more, submit"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1956
+#: ../../includes/admin/customizer.php:2169
+msgid "Button Base Text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1992
+msgid "Content Secondary"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:1993
+msgid "The following mainly sets the colors of the elements in-between content boxes"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2003
+msgid "Section Titles"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2004
+msgid "Color for the titles dividing sections"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2015
+msgid "Section Text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2016
+msgid "Color for the text between sections"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2028
+msgid "Color for the secondary button base, navigation"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2040
+msgid "Color for the secondary button text, navigation text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2085
+msgid "Header Base"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2086
+msgid "Color for the sidebar header base, article footer"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2097
+msgid "Header Titles"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2098
+msgid "Color for the sidebar header titles"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2109
+msgid "Header Text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2110
+msgid "Color for the sidebar header text, article footer text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2121
+msgid "Sidebar Accent"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2122
+msgid "Accent color for the sidebar"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2133
+msgid "Sidebar Text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2134
+msgid "Color for the sidebar text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2145
+msgid "Sidebar Box Base"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2146
+msgid "Color for the sidebar box background"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2158
+msgid "Color for the buttons base, tags base"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2170
+msgid "Color for the buttons text, tags text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2215
+msgid "Footer Accent"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2216
+msgid "Accent color for the footer"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2227
+msgid "Footer Base Color"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2228
+msgid "Color for the footer background, table rows, footnote"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2239
+msgid "Footer Titles"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2240
+msgid "Color for the footer titles"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2251
+msgid "Footer Text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2252
+msgid "Color for the footer text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2264
+msgid "Color for the footer buttons, tags"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2276
+msgid "Color for the footer button text, tag text"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2422
+#: ../../includes/admin/customizer.php:2437
+#: ../../includes/plugins/woocommerce/woocommerce.php:237
+msgid "---"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2423
+#: ../../includes/admin/customizer.php:2444
+msgid "Read Time"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2424
+#: ../../includes/admin/customizer.php:2445
+#: ../../includes/plugins/woocommerce/woocommerce.php:240
+msgid "Likes"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2425
+#: ../../includes/admin/customizer.php:2446
+#: ../../includes/modules/publisher-shares/publisher-shares.php:140
+#: ../../includes/plugins/woocommerce/woocommerce.php:241
+msgid "Shares"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2438
+msgid "Category"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2442
+msgid "Tag List"
+msgstr ""
+
+#: ../../includes/admin/customizer.php:2443
+#: ../../includes/template-tags/template-tags.php:2173
+msgid "Author Card"
+msgstr ""
+
+#: ../../includes/admin/metabox-taxonomy.php:498
+#: ../../includes/template-tags/template-tags.php:2204
+msgid "Upload/Add Image"
+msgstr ""
+
+#: ../../includes/admin/metabox-taxonomy.php:499
+#: ../../includes/template-tags/template-tags.php:2205
+msgid "Remove Image"
+msgstr ""
+
+#: ../../includes/admin/metabox-taxonomy.php:682
+msgid "Taxonomy Metabox"
+msgstr ""
+
+#: ../../includes/admin/metabox-taxonomy.php:690
+msgid "Taxonomy Color "
+msgstr ""
+
+#: ../../includes/admin/metabox-taxonomy.php:691
+msgid "Set the color to show as the taxonomy label."
+msgstr ""
+
+#: ../../includes/admin/metabox-taxonomy.php:696
+msgid "Featured Image"
+msgstr ""
+
+#: ../../includes/admin/metabox-taxonomy.php:697
+msgid "Select the featured image for this taxonomy."
+msgstr ""
+
+#: ../../includes/admin/metabox.php:34
+msgid "Page Subtitle"
+msgstr ""
+
+#: ../../includes/admin/metabox.php:41
+msgid "Featured Preview"
+msgstr ""
+
+#: ../../includes/admin/metabox.php:74
+msgid "Add a subtitle for your page (optional)."
+msgstr ""
+
+#: ../../includes/admin/metabox.php:103
+msgid "Layout"
+msgstr ""
+
+#: ../../includes/admin/metabox.php:108 ../../includes/admin/metabox.php:139
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:186
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:316
+msgid "Default"
+msgstr ""
+
+#: ../../includes/admin/metabox.php:167
+#, php-format
+msgid "Embed videos, images, tweets, audio, and other content by entering its URL. <a class=\"thickbox\" href=\"%1$s\">More Info</a>"
+msgstr ""
+
+#: ../../includes/admin/metabox.php:176
+msgid "Show featured preview in the posts index."
+msgstr ""
+
+#: ../../includes/modules/publisher-likes/publisher-likes.php:29
+msgid "You already like this"
+msgstr ""
+
+#: ../../includes/modules/publisher-likes/publisher-likes.php:171
+msgid "I like this"
+msgstr ""
+
+#: ../../includes/modules/publisher-shares/publisher-shares.php:141
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../../includes/modules/publisher-shares/publisher-shares.php:157
+msgid "Share"
+msgstr ""
+
+#: ../../includes/modules/publisher-shares/publisher-shares.php:164
+msgid "Share to Facebook"
+msgstr ""
+
+#: ../../includes/modules/publisher-shares/publisher-shares.php:173
+msgid "Share to Twitter"
+msgstr ""
+
+#: ../../includes/modules/publisher-shares/publisher-shares.php:182
+msgid "Share to Pinterest"
+msgstr ""
+
+#: ../../includes/modules/publisher-shares/publisher-shares.php:191
+msgid "Share to Google+"
+msgstr ""
+
+#: ../../includes/plugins/bbpress/bbpress.php:73
+#: ../../includes/plugins/bbpress/bbpress.php:135
+msgid "Forum Sidebar"
+msgstr ""
+
+#: ../../includes/plugins/bbpress/bbpress.php:75
+msgid "Appears in the forum content area when widgets are active."
+msgstr ""
+
+#: ../../includes/plugins/bbpress/bbpress.php:106
+msgid "Forum Archive Page Title"
+msgstr ""
+
+#: ../../includes/plugins/bbpress/bbpress.php:110
+msgid "Title for the Forum archive page header"
+msgstr ""
+
+#: ../../includes/plugins/bbpress/bbpress.php:120
+msgid "Forum Archive Page Description"
+msgstr ""
+
+#: ../../includes/plugins/bbpress/bbpress.php:124
+msgid "Description for the Forum archive page header"
+msgstr ""
+
+#: ../../includes/plugins/bbpress/bbpress.php:139
+msgid "Set the default forum sidebar layout"
+msgstr ""
+
+#: ../../includes/plugins/bbpress/bbpress.php:154
+msgid "Forum User Sidebar"
+msgstr ""
+
+#: ../../includes/plugins/bbpress/bbpress.php:158
+msgid "Set the default forum user sidebar layout"
+msgstr ""
+
+#: ../../includes/plugins/bbpress/bbpress.php:171
+msgid "Forum Archive Image"
+msgstr ""
+
+#: ../../includes/plugins/bbpress/bbpress.php:204
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../../includes/plugins/dittynewsticker/dittynewsticker.php:19
+#: ../../includes/plugins/dittynewsticker/dittynewsticker.php:30
+msgid "News Ticker"
+msgstr ""
+
+#: ../../includes/plugins/dittynewsticker/dittynewsticker.php:31
+msgid "Insert your Ditty News Ticker Shortcode to show the news ticker in place of the Header Left Menu."
+msgstr ""
+
+#: ../../includes/plugins/jetpack/jetpack.php:70
+msgid "Portfolio Sidebar"
+msgstr ""
+
+#: ../../includes/plugins/jetpack/jetpack.php:72
+msgid "Appears in the portfolio content area when widgets are active."
+msgstr ""
+
+#: ../../includes/plugins/jetpack/jetpack.php:128
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:337
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:327
+msgid "Load More"
+msgstr ""
+
+#: ../../includes/plugins/metaslider/metaslider.php:21
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-button-widget/so-button-widget.php:21
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-price-table-widget/so-price-table-widget.php:21
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-social-media-buttons-widget/so-social-media-buttons-widget.php:21
+msgid "Publisher"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:27
+msgid "Publisher Hero Slider"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:31
+msgid "A big hero slider with a few settings to make it your own."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:44
+msgid "Hero frames"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:45
+msgid "Frame"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:61
+msgid "Buttons"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:62
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:74
+msgid "Button"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:63
+msgid "Add [buttons] shortcode to the content to insert these buttons."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:82
+msgid "Content Width"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:83
+msgid "Set the maximum percentage width of the content."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:91
+msgid "Content Alignment"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:95
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-cta-widget/so-cta-widget.php:34
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-features-widget/so-features-widget.php:52
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-image-widget/so-image-widget.php:27
+msgid "Center"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:102
+msgid "Background"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:103
+msgid "Set the background image and/or video for this frame."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:108
+msgid "Background image"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:113
+msgid "Background image vertical offset (%)"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:121
+msgid "Background image opacity"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:130
+msgid "Background color"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:135
+msgid "Video"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:136
+msgid "Background videos"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:137
+msgid "Mobile devices will show the background image instead."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:150
+msgid "Additional Options"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:151
+msgid "Set the options for this frame."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:156
+msgid "Frame Animation"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:157
+msgid "Set the animate in of this frame"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:161
+msgid "Bounce In"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:162
+msgid "Bounce In Down"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:163
+msgid "Bounce In Left"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:164
+msgid "Bounce In Right"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:165
+msgid "Bounce In Up"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:166
+msgid "Fade In"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:167
+msgid "Fade In Down"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:168
+msgid "Fade In Down Big"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:169
+msgid "Fade In Left"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:170
+msgid "Fade In Left Big"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:171
+msgid "Fade In Right"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:172
+msgid "Fade In Right Big"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:173
+msgid "Fade In Up"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:174
+msgid "Fade In Up Big"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:175
+msgid "Flip In X"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:176
+msgid "Flip In Y"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:177
+msgid "Zoom In"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:188
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:378
+msgid "Slider Options"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:193
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:396
+msgid "Fade Slides"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:194
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:397
+msgid "Slider will fade between the slides. Default is slide."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:200
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:403
+msgid "Autoplay"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:201
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:404
+msgid "Automatically play the slider. Will pause on mouse over."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:207
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:410
+msgid "Autoheight"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:208
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:411
+msgid "Set the slider to auto adjust to the height of the current slide."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:214
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:417
+msgid "Slide Speed"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:215
+msgid "Duration in milliseconds spent animating between slides. Default is 800."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:220
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:423
+msgid "Slide Timeout"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:221
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:424
+msgid "Duration in milliseconds spent on each slide if autoplay is enabled. Default is 5000."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:229
+msgid "Design and Layout"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:234
+msgid "Vertical Padding"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:235
+msgid "The padding size for the top and bottom frame content."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:243
+msgid "Heading Size"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:251
+msgid "Text Size"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:268
+msgid "Video file"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:274
+msgid "Video URL"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:276
+msgid "An external URL of the video. Overrides video file."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:281
+msgid "Video format"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-hero-slider/publisher-hero-slider.php:291
+msgid "Maximum height"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:25
+msgid "Publisher Posts Loop"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:29
+msgid "Display your posts in a variety of different ways."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:43
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:41
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-headline-widget/so-headline-widget.php:83
+msgid "Section Header"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:44
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:42
+msgid "Add a section header to this widget."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:52
+msgid "Build Posts Query"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:53
+msgid "Build a posts query. The first posts query is your main query, all other posts queries will subtract the results of the first."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:54
+msgid "Posts Query"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:65
+msgid "Query Name"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:66
+msgid "Optional name of this post query for reference. Not Displayed."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:72
+msgid "Post Type"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:73
+msgid "Select the post type."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:82
+msgid "Taxonomy"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:83
+msgid "Select the taxonomy."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:89
+msgid "The logical relationship between each inner taxonomy array when there is more than one."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:92
+msgid "AND: Show if posts have ALL selected taxonomy terms"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:93
+msgid "OR: Show if posts have at least ONE of the selected taxonomy terms"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:102
+msgid "Users"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:103
+msgid "Select the users."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:114
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:141
+msgid "Order"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:115
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:142
+msgid "Select ascending or descending order."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:118
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:145
+msgid "Ascending"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:119
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:146
+msgid "Descending"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:126
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:158
+msgid "Order By"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:127
+msgid "Sort retrieved posts by parameter."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:135
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:163
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-social-media-buttons-widget/so-social-media-buttons-widget.php:41
+msgid "Title"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:136
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:164
+msgid "Name"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:137
+msgid "Comment Count"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:138
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:166
+msgid "Random"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:139
+msgid "Most Likes"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:140
+msgid "Most Shares"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:147
+msgid "Time Range"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:148
+msgid "Select time range."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:165
+msgid "Time Published"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:166
+msgid "Display only posts published within the selected Time Range."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:182
+msgid "Sticky Posts"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:183
+msgid "Set sticky posts behavior."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:187
+msgid "Ignore"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:188
+msgid "Include"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:189
+msgid "Exclude"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:196
+msgid "Posts Per Page"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:197
+msgid "Default is your Wordpress setting."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:203
+msgid "Exclude IDs"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:204
+msgid "Post IDs to exclude from this query. Separate with a comma."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:213
+msgid "Set the posts page layout."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:224
+msgid "Cover Carousel"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:225
+msgid "Listing Horizontal"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:226
+msgid "Listing Vertical"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:227
+msgid "Mini Grid"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:228
+msgid "Mini Carousel"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:229
+msgid "Mini Listing"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:230
+msgid "Post Slider"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:237
+msgid "Set the number of columns."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:312
+msgid "Image size"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:313
+msgid "Select the image size for the post loop (if applicable)."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:318
+msgid "Large"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:319
+msgid "Medium"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:320
+msgid "Thumbnail"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:326
+msgid "Posts Pagination"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:327
+msgid "Select the posts pagination style. Only works on static pages."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:338
+msgid "Header Prev / Next"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:344
+msgid "Ajax Loading"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:345
+msgid "Load new posts without re-loading the page."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:355
+msgid "Ajax Track History"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:356
+msgid "Change browser URL upon loading new posts."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:366
+msgid "Add Unique Ajax ID (optional)"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:367
+msgid "Use only if having issues with multiple widgets being targeted when loading."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:418
+msgid "Duration in milliseconds spent animating between slides. Default is 250."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:481
+msgid "IN: Must have at least ONE of the selected terms"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:482
+msgid "NOT IN: Must NOT be in selected terms"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:483
+msgid "AND: Must have ALL selected terms"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/publisher-posts-loop.php:489
+msgid "Select the terms."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:85
+msgctxt "RTL: Header Previous posts"
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:86
+msgctxt "RTL: Header Next posts"
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:90
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:346
+#: ../../includes/template-tags/index-tags.php:87
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:91
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:347
+#: ../../includes/template-tags/index-tags.php:88
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:99
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:317
+#: ../../includes/template-tags/single-tags.php:209
+#: ../../includes/template-tags/single-tags.php:239
+msgid "Post navigation"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:328
+msgid "No More Posts"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:341
+msgctxt "RTL: Numeric Previous posts"
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:342
+msgctxt "RTL: Numeric Next posts"
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:387
+msgid "&rarr; Older posts"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:388
+msgid "Newer posts &larr;"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:392
+msgid "&larr; Older posts"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:393
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-posts-loop/tpl/base.php:420
+msgid "No posts found in the query. Please adjust your query and try again."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:25
+msgid "Publisher Products Loop"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:29
+msgid "Display your products. Requires Woocommerce plugin."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:49
+msgid "Section Type"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:50
+msgid "Set the type of items to show."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:57
+msgid "Recent Products"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:58
+msgid "Featured Products"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:59
+msgid "Sale Products"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:60
+msgid "Best Selling Products"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:61
+msgid "Top Rated Products"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:62
+msgid "Single Product"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:63
+msgid "Product Page"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:64
+msgid "Product Categories"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:71
+msgid "Select Categories"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:72
+msgid "Select the product categories to show."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:83
+msgid "Insert ID"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:84
+msgid "Insert the applicable product/category ID (if needed)."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:95
+msgid "Display only top level categories."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:105
+msgid "Section Layout"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:106
+msgid "Show the section as a slider or grid."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:109
+msgid "Slider"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:122
+msgid "Number of Columns"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:123
+msgid "The number of columns to show."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:159
+msgid "Sort retrieved products by parameter, if applicable."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:165
+msgid "Review Count"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:178
+#: ../../includes/plugins/woocommerce/woocommerce.php:179
+msgid "Products Per Page"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:179
+msgid "Insert a number of items to show. The default is your Wordpress setting."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/publisher-products-loop.php:202
+msgid "Product Category"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-products-loop/tpl/base.php:127
+#, php-format
+msgid "This widget requires the <a href=\"%s\">Woocommerce</a> plugin to be active."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-sidebar/publisher-sidebar.php:29
+msgid "Publisher Sidebar"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-sidebar/publisher-sidebar.php:33
+msgid "Bring in the sidebar to the Page Builder."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/publisher-widgets/publisher-sidebar/publisher-sidebar.php:48
+msgid "Select Sidebar"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:46
+msgid "Publisher Widgets"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:383
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:441
+msgid "Add Sidebar Classes"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:386
+msgid "Adds the sidebar classes to this row."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:391
+msgid "First Row"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:394
+msgid "Removes the gap under the menu."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:399
+msgid "Last Row"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:402
+msgid "Aligns the bottom row to the footer."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:444
+msgid "Adds the sidebar classes to this widget."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:449
+msgid "Bottom Margin"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:452
+msgid "Space below the widget."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:457
+msgid "Padding Block"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:460
+msgid "Enter the number of how many predefined space blocks you want around the widget."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:465
+msgid "Bottom Margin Block"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/so-widgets-bundle.php:468
+msgid "Enter the number of how many predefined space blocks you want below the widget."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-cta-widget/so-cta-widget.php:23
+msgid "No Box"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-cta-widget/so-cta-widget.php:29
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-image-widget/so-image-widget.php:23
+msgid "Alignment"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-editor-widget/so-editor-widget.php:23
+msgid "Boxed"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-features-widget/so-features-widget.php:36
+msgid "Container size should not be less than the icon size."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-features-widget/so-features-widget.php:48
+msgid "Alignment Style"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-headline-widget/so-headline-widget.php:75
+msgid "Headline Style"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-headline-widget/so-headline-widget.php:82
+msgid "Section Masthead"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-headline-widget/so-headline-widget.php:84
+msgid "Section Block"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-image-widget/so-image-widget.php:37
+msgid "Image Header Text (Optional)"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-social-media-buttons-widget/so-social-media-buttons-widget.php:72
+msgid "Icon Alignment"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-social-media-buttons-widget/so-social-media-buttons-widget.php:73
+msgid "The alignment of the icons."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-social-media-buttons-widget/so-social-media-buttons-widget.php:92
+msgid "Icon Columns"
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-social-media-buttons-widget/so-social-media-buttons-widget.php:93
+msgid "The number of icons to put in one row."
+msgstr ""
+
+#: ../../includes/plugins/so-widgets-bundle/widgets/so-social-media-buttons-widget/so-social-media-buttons-widget.php:111
+msgid "Widget Title"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:92
+msgid "Shop Sidebar"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:94
+msgid "Appears in the shop content area when widgets are active."
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:115
+msgid "Shop"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:127
+msgid "Shop Page Content"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:131
+msgid "Set the shop page content location"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:133
+msgid "Column"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:134
+msgid "Full Width"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:146
+msgid "Show only on main page"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:158
+msgid "Shop Page Columns"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:162
+msgid "Set the amount of columns to show"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:183
+msgid "Number of products to show in the shop page. If nothing, will use Wordpress settings."
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:194
+msgid "Shop Page Sidebar"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:198
+msgid "Set the default shop page sidebar layout"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:213
+msgid "Product Sidebar"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:217
+msgid "Set the default product sidebar layout"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:231
+msgid "Product Details"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:235
+msgid "Hide the following product details"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:238
+msgid "Meta Info"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:239
+#: ../../includes/plugins/wordpress-popular-posts/wordpress-popular-posts.php:72
+msgid "Views"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:253
+msgid "Shopping Cart"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:257
+msgid "Show shopping cart in the menu bar"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:311
+#, php-format
+msgid "You have %s item in your cart"
+msgid_plural "You have %s items in your cart"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:476
+#: ../../includes/plugins/woocommerce/woocommerce.php:647
+msgid "Out of Stock"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:630
+msgid "Sale"
+msgstr ""
+
+#: ../../includes/plugins/woocommerce/woocommerce.php:917
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../../includes/plugins/wordpress-popular-posts/wordpress-popular-posts.php:18
+msgid "View Count"
+msgstr ""
+
+#: ../../includes/plugins/wordpress-popular-posts/wordpress-popular-posts.php:32
+msgid "Total Views"
+msgstr ""
+
+#: ../../includes/plugins/wordpress-popular-posts/wordpress-popular-posts.php:33
+msgid "Average Daily Views"
+msgstr ""
+
+#: ../../includes/plugins/wordpress-popular-posts/wordpress-popular-posts.php:34
+msgid "Trending Comments"
+msgstr ""
+
+#: ../../includes/plugins/wordpress-popular-posts/wordpress-popular-posts.php:46
+msgid "Last 24 Hours"
+msgstr ""
+
+#: ../../includes/plugins/wordpress-popular-posts/wordpress-popular-posts.php:47
+msgid "Last 7 Days"
+msgstr ""
+
+#: ../../includes/plugins/wordpress-popular-posts/wordpress-popular-posts.php:48
+msgid "Last 30 Days"
+msgstr ""
+
+#: ../../includes/plugins/wordpress-popular-posts/wordpress-popular-posts.php:49
+msgid "All Time"
+msgstr ""
+
+#: ../../includes/template-tags/content-none-tags.php:21
+msgid "Nothing Found"
+msgstr ""
+
+#: ../../includes/template-tags/content-none-tags.php:41
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../../includes/template-tags/content-none-tags.php:46
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../../includes/template-tags/content-none-tags.php:49
+msgid "It looks like nothing was found at this location. Try using the navigation menu or the search box to find what you were looking for."
+msgstr ""
+
+#: ../../includes/template-tags/content-none-tags.php:80
+msgid "Most Used Categories"
+msgstr ""
+
+#: ../../includes/template-tags/header-tags.php:31
+#, php-format
+msgctxt "CTA Translation Text"
+msgid "%s"
+msgstr ""
+
+#: ../../includes/template-tags/header-tags.php:32
+#, php-format
+msgctxt "CTA Translation Button Text"
+msgid "%s"
+msgstr ""
+
+#: ../../includes/template-tags/header-tags.php:455
+msgid "Archive navigation"
+msgstr ""
+
+#: ../../includes/template-tags/header-tags.php:561
+#, php-format
+msgctxt "Logo Image: http image link to the site logo"
+msgid "%s"
+msgstr ""
+
+#: ../../includes/template-tags/index-tags.php:82
+msgctxt "RTL: Numeric Previous post"
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: ../../includes/template-tags/index-tags.php:83
+msgctxt "RTL: Numeric Next post"
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: ../../includes/template-tags/index-tags.php:95
+msgctxt "RTL: Older posts"
+msgid "<span class=\"meta-nav\">&rarr;</span> Older posts"
+msgstr ""
+
+#: ../../includes/template-tags/index-tags.php:96
+msgctxt "RTL: Newer posts"
+msgid "Newer posts <span class=\"meta-nav\">&larr;</span>"
+msgstr ""
+
+#: ../../includes/template-tags/index-tags.php:100
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../../includes/template-tags/index-tags.php:101
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../../includes/template-tags/single-tags.php:183
+msgctxt "RTL: Previous post"
+msgid "<span class=\"meta-nav-title\"><span>&rarr; Previous Post</span>%title</span>"
+msgstr ""
+
+#: ../../includes/template-tags/single-tags.php:184
+msgctxt "RTL: Next post"
+msgid "<span class=\"meta-nav-title\"><span>Next Post &larr;</span>%title</span>"
+msgstr ""
+
+#: ../../includes/template-tags/single-tags.php:188
+msgctxt "Previous post"
+msgid "<span class=\"meta-nav-title\"><span>&larr; Previous Post</span>%title</span>"
+msgstr ""
+
+#: ../../includes/template-tags/single-tags.php:189
+msgctxt "Next post"
+msgid "<span class=\"meta-nav-title\"><span>Next Post &rarr;</span>%title</span>"
+msgstr ""
+
+#: ../../includes/template-tags/single-tags.php:213
+msgid "Previous Post"
+msgstr ""
+
+#: ../../includes/template-tags/single-tags.php:218
+msgid "Next Post"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:293
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:296
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:299
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:303
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:305
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:307
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:309
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:311
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:313
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:315
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:317
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:319
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:335
+msgid "Not Found"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:338
+msgid "Archive"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:373
+msgid "No results found"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:376
+#, php-format
+msgid "%s results found"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:379
+msgid "1 result found"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:389
+msgid "Well, this is awkward"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:428
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:458
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:690
+msgid "View Image"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:960
+#, php-format
+msgid "%s Min Read"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:1107
+msgid "Loading"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:1221
+msgid "Home"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:1226
+msgid "Media"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:1299
+msgid "Breadcrumbs navigation"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:1362
+#, php-format
+msgid "<cite class=\"fn\">%1$s</cite>&nbsp;<span class=\"says\">says</span>"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:1371
+#, php-format
+msgid "%1$s <span class=\"at-time\">at %2$s</span>"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:1377
+msgid "(Edit)"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:1386
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:1686
+msgid "Your Name"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:1687
+msgid "Your Email"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:1688
+msgid "Website"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:1868
+msgid "Custom Post Archives"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:1916
+msgid "Add to Menu"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2084
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2133
+msgid "Twitter"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2134
+msgid "Facebook"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2135
+msgid "Instagram"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2136
+msgid "Tumblr"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2137
+msgid "Dribbble"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2138
+msgid "Flickr"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2139
+msgid "Pinterest"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2140
+msgid "Google+"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2141
+msgid "Vimeo"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2142
+msgid "YouTube"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2143
+msgid "Soundcloud"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2144
+msgid "LinkedIn"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2145
+msgid "GitHub"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2146
+msgid "RSS"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2147
+msgid "Public Email"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2160
+msgid "Profile Images"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2174
+msgid "Image for the author card. If none, will use the Gravatar image instead."
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2177
+msgid "Author Archive"
+msgstr ""
+
+#: ../../includes/template-tags/template-tags.php:2178
+msgid "Image for the author archive featured header. If none, will use the default featured header image instead."
+msgstr ""
