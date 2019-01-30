@@ -1,0 +1,461 @@
+/**
+ * Styles for the post editor
+ */
+
+html {
+	font-size: 62.5%;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+.mceContentBody {
+	font-size: 16px;
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.625em;
+	color: #484848;
+}
+
+/* Links
+----------------------------------------------- */
+
+a {
+	color: #fd6763;
+	outline: 0;
+}
+
+
+/* Headings
+----------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Oxygen", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #292929;
+	clear: both;
+}
+
+h1, .h1 {
+	font-size: 2.25em;
+    line-height: 1.1944444444444444em;
+    margin-bottom: 0.7222222222222222em;
+}
+
+h2, .h2 {
+    font-size: 1.875em;
+    line-height: 1.3333333333333333em;
+    margin-bottom: 0.8666666666666667em;
+}
+
+h3, .h3 {
+	font-size: 1.5em;
+    line-height: 1.5416666666666667em;
+    margin-bottom: 1.0833333333333333em;
+}
+
+h4, .h4 {
+    font-size: 1.125em;
+    line-height: 1.7222222222222223em;
+    margin-bottom: 1.4444444444444444em;
+}
+
+h5, .h5 {
+    font-size: 0.875em;
+    line-height: 2em;
+    margin-bottom: 1.8571428571428572em;
+}
+
+h6, .h6 {
+	font-size: 0.75em;
+    line-height: 2.3333333333333335em;
+    margin-bottom: 2.1666666666666665em;
+}
+
+
+/* Typography
+----------------------------------------------- */
+
+blockquote {
+	font-size: 1.375em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #292929;
+    line-height: 1.625em;
+    padding-left: 2.5%;
+    margin-bottom: 1.1818181818181819em;
+    border-left: 3px solid #292929;
+}
+
+blockquote p {
+	margin-bottom: 0;
+}
+
+blockquote cite {
+	font-size: 0.5454545454545454em;
+    font-family: "Oxygen", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1.625em;
+    letter-spacing: 0.1em;
+    padding-top: 1.625em;
+    display: block;
+}
+
+pre {
+	font-size: 0.9375em;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    line-height: 1.7333333333333334em;
+    padding: 3%;
+    margin-bottom: 1.7333333333333334em;
+    max-width: 100%;
+    background: #f2f2f2;
+    overflow: auto;
+    tab-size: 4;
+}
+
+code,
+kbd,
+tt,
+var {
+	font-size: 0.9375em;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+}
+
+code {
+	color: #c7254e;
+    padding: 0.125em 0.250em;
+    background-color: #fceff2;
+    border-radius: 0.250em;
+}
+
+
+/* Elements
+----------------------------------------------- */
+
+hr {
+	background-color: #e8e8e8;
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.625em;
+    display: block;
+    width: 100%;
+}
+
+
+/* Media
+----------------------------------------------- */
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+	vertical-align: middle;
+}
+
+figure {
+	margin: 0;
+}
+
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+
+/* Lists
+----------------------------------------------- */
+
+ul,
+ol {
+	margin: 0 0 1.625em 1.25em;
+}
+
+ul {
+	list-style: square;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.625em;
+}
+
+dt {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+dd {
+	margin: 0 0 1.625em;
+}
+
+
+/* Tables
+----------------------------------------------- */
+
+table {
+	margin-bottom: 1.625em;
+	width: 100%;
+}
+
+table thead {
+	font-family: "Oxygen", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #f2f2f2;
+
+}
+
+table thead th {
+	font-weight: bold;
+}
+
+table th,
+table td {
+	padding: 0.65em .825em;
+}
+
+table tr:nth-child(even) {
+	background: #f2f2f2;
+}
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Wordpress Standard
+/*-----------------------------------------------------------------------------------*/
+
+
+/* Alignment
+----------------------------------------------- */
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.625em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.625em;
+	text-align: right;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* Captions
+----------------------------------------------- */
+
+.wp-caption {
+	font-size: 0.875em;
+	margin-bottom: 1.625em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0 auto;
+}
+
+.wp-caption-text {
+	text-align: center;
+    color: #cccccc;
+    padding: 0.80em 0 0;
+}
+
+
+/* Galleries
+----------------------------------------------- */
+
+.gallery-item {
+	display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 1.625em;
+    width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	font-size: 0.875em;
+    line-height: 1.5em;
+    max-width: 100%;
+    display: block;
+}
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Theme Standard
+/*-----------------------------------------------------------------------------------*/
+
+p.alert {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	padding: 0.76em 1em;
+}
+
+p.alert.primary {
+	color: #fff;
+	background-color: #428bca;
+}
+
+p.alert.success {
+	background-color: #dff0d8;
+}
+
+p.alert.info {
+	background-color: #d9edf7;
+}
+
+p.alert.warning {
+	background-color: #fcf8e3;
+}
+
+p.alert.danger {
+	background-color: #f2dede;
+}
+
+.dropcap {
+	font-size: 4.8em;
+	margin-right: .25em;
+	line-height: 1em;
+	float: left;
+}
+
+.pull-right,
+.pull-left {
+	font-size: 1.375em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #292929;
+	line-height: 1.625em;
+	padding-top: 1%;
+	margin-bottom: 3%;
+	width: 30%;
+}
+
+.pull-right {
+ 	float: right;
+ 	margin-left: 2.5%;
+ 	text-align: right;
+}
+
+.pull-left {
+	float: left;
+	margin-right: 2.5%;
+	text-align: left;
+}
+
+.lead {
+	font-size: 1.375em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 1.625em;
+	color: #292929;
+	margin-bottom: 1.2727272727272727em;
+}
+
+.lead:after {
+	content: "";
+	height: 3px;
+	width: 4em;
+	margin-top: 1.1363636363636365em;
+	display: block;
+	background: #292929;
+}
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  RTL Styles
+/*-----------------------------------------------------------------------------------*/
+
+.rtl blockquote {
+    padding-left: 0;
+    padding-right: 2.5%;
+    border-left: none;
+    border-right: 3px solid #292929;
+}
+
+.rtl ul,
+.rtl ol {
+	margin: 0 1.625em 1.625em 0;
+}
+
+.rtl li > ul,
+.rtl li > ol {
+	margin: 0 1.625em 0 0;
+}
+
+.rtl .dropcap {
+	float: right;
+	margin-right: 0;
+	margin-left: .25em;
+}
+
+.rtl .pull-left {
+	text-align: right;
+}
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Media Queries
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 500px) {
+
+	/* Theme Standard */
+
+	.pull-right,
+	.pull-left {
+		text-align: left;
+		margin-bottom: 1.625em;
+		width: 100%;
+		display: block;
+	}
+
+}

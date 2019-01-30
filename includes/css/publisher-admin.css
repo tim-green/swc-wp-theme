@@ -1,0 +1,37 @@
+/**
+ * Styles for the admin area
+ */
+
+/* Metabox
+----------------------------------------------- */
+
+label.publisher-post-layout-button {
+	text-align: center;
+	margin-right: 1em;
+	display: inline-block;
+}
+
+.rtl label.publisher-post-layout-button {
+	margin-right: 0;
+	margin-left: 1em;
+}
+
+label.publisher-post-layout-button span {
+	display: block;
+}
+
+label.publisher-post-layout-button > input { /* HIDE RADIO */
+	visibility: hidden; /* Makes input not-clickable */
+	position: absolute; /* Remove input from document flow */
+}
+
+label.publisher-post-layout-button > input + img { /* IMAGE STYLES */
+	cursor: pointer;
+	border: 2px solid transparent;
+}
+
+label.publisher-post-layout-button > input:checked + img { /* (RADIO CHECKED) IMAGE STYLES */
+	border-color: #5b9dd9;
+    -webkit-box-shadow: 0 0 2px rgba(30,140,190,.8);
+    box-shadow: 0 0 2px rgba(30,140,190,.8);
+}
