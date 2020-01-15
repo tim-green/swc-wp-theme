@@ -593,7 +593,7 @@ function wp_custom_logo() {
                 background-position: center center !important;
                 background-size: 95% !important;
                 height: auto !important;
-                margin: 15% auto 0 !important;
+                margin: 15% auto 5% !important;
                 color:rgba(0, 0, 0, 0) !important;
                 width:100% !important;
                 }
