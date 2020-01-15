@@ -583,6 +583,26 @@ function somewhat_remove_headers_for_cloudflare() {
     header('Cache-Control: max-age=3600'); // 1 hour
 }*/
 
+
+//Adding SWC logo to admin
+
+function wp_custom_logo() {
+        echo '<style type="text/css">
+                .login h1 a{
+                background-image: url(http://res.cloudinary.com/somewhatcreative/image/upload/v1566205778/assets/images/logo/SomeWhat-Creative_inline_small.png) !important;
+                background-position: center center !important;
+                background-size: 95% !important;
+                height: auto !important;
+                margin: 15% auto 0 !important;
+                color:rgba(0, 0, 0, 0) !important;
+                width:100% !important;
+                }
+                </style>';
+        }
+    //hook into the administrative header output
+    add_action('login_enqueue_scripts', 'wp_custom_logo');
+
+
 //Automatically set the image Title, Alt-Text, Caption & Description upon upload
 add_action( 'add_attachment', 'my_set_image_meta_upon_image_upload' );
 function my_set_image_meta_upon_image_upload( $post_ID ) {
@@ -613,3 +633,6 @@ function my_set_image_meta_upon_image_upload( $post_ID ) {
 		wp_update_post( $my_image_meta );
 	} 
 }
+
+
+
