@@ -583,6 +583,14 @@ function somewhat_remove_headers_for_cloudflare() {
     header('Cache-Control: max-age=3600'); // 1 hour
 }*/
 
+// Changing Default Search URL Slug in SomeWhat Creative
+function swc_change_search_url() {
+    if ( is_search() && ! empty( $_GET['s'] ) ) {
+        wp_redirect( home_url( "/search/" ) . urlencode( get_query_var( 's' ) ) );
+        exit();
+    }   
+}
+add_action( 'template_redirect', 'swc_change_search_url' );
 
 //Adding SWC logo to admin
 
