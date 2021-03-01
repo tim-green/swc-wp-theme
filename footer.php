@@ -15,6 +15,7 @@
 
 		<?php do_action( 'publisher_action_below_content_area_container' ); ?>
 
+    <!-- scroll to top -->
 	</div><!-- #content -->
 
 	<?php do_action( 'publisher_action_above_site_footer' ); ?>
