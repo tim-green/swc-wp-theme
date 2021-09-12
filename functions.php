@@ -609,6 +609,13 @@ function wp_custom_logo() {
                 width:100% !important;
 				filter: invert(1) !important;
                 }
+
+				.login form {
+					background: #151515!important;
+					border: 1px solid #000!important;
+					color: #f1f1f1!important;
+				}
+
 				.login #login_error, .login .message, .login .success {
 					border-left: 4px solid #4a4a4a!important;;
 					background-color: #000!important;;
