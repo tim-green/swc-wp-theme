@@ -596,6 +596,9 @@ add_action( 'template_redirect', 'swc_change_search_url' );
 
 function wp_custom_logo() {
         echo '<style type="text/css">
+			body{
+				background: #1d1d1d !important;
+			}
                 .login h1 a{
                 background-image: url(http://res.cloudinary.com/somewhatcreative/image/upload/v1566205778/assets/images/logo/SomeWhat-Creative_inline_small.png) !important;
                 background-position: center center !important;
