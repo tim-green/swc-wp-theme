@@ -604,6 +604,7 @@ function wp_custom_logo() {
                 margin: 15% auto 5% !important;
                 color:rgba(0, 0, 0, 0) !important;
                 width:100% !important;
+				filter: invert(1) !important;
                 }
                 </style>';
         }
