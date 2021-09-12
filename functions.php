@@ -609,6 +609,12 @@ function wp_custom_logo() {
                 width:100% !important;
 				filter: invert(1) !important;
                 }
+				.login #login_error, .login .message, .login .success {
+					border-left: 4px solid #4a4a4a!important;;
+					background-color: #000!important;;
+					color: #fff!important;;
+				}
+
                 </style>';
         }
     //hook into the administrative header output
