@@ -661,3 +661,13 @@ function my_set_image_meta_upon_image_upload( $post_ID ) {
 
 
 
+//Adding function for custom syntax using Prism.js
+// function custom_syntax_highlighting() {
+//     if ( ! is_admin() ) {
+//         wp_enqueue_style( 'prism-css', 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css' );
+//         wp_enqueue_script( 'prism-js', 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js', array(), '', true );
+//     }
+// }
+// add_action( 'wp_enqueue_scripts', 'custom_syntax_highlighting' );
+
+
