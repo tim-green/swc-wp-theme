@@ -6285,6 +6285,12 @@ div.sow-features-list .sow-features-feature h5,
 .widget_sow-social-media-buttons .so-widget-sow-social-media-buttons .publisher .sow-social-media-button {
   margin: 0;
 }
+
+.sidebar-main .sow-social-media-button-instagram{
+  color: #fff !important;
+  background: #c13584 !important;
+}
+
 /* Button Widget */
 .publisher-button .hero-link.button {
   margin-top: 0;
