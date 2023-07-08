@@ -416,7 +416,7 @@ input[type="submit"],
   color: #9a9a9a;
   padding: 0.50em 1em;
   border: none;
-  border-radius: 0;
+  border-radius: 5px;
   background: #e8e8e8;
   display: inline-block;
   -webkit-appearance: none;
@@ -683,6 +683,7 @@ p.alert {
   font-style: italic;
   color: #484848;
   padding: 0.76em 1em;
+  border-radius: 5px;
 }
 p.alert.primary {
   color: #fff;
@@ -1945,7 +1946,7 @@ p.alert.danger {
 .hentry .article-wrap {
   background: #ffffff;
   position: relative;
-  border-radius: 3px;
+  border-radius: 10px;
   box-shadow: 0 2px 0 #e8e8e8;
 }
 .hentry .article-wrap .hentry .article-wrap {
@@ -2181,6 +2182,7 @@ p.alert.danger {
   width: 100%;
   position: relative;
   overflow: hidden;
+  border-radius: 10px 10px 0 0;
 }
 .posts-index .featured-preview {
   background-color: #e8e8e8;
@@ -3246,6 +3248,7 @@ div.post-flash-icon a,
   background: -o-linear-gradient(top, #474747, #292929);
   background: -moz-linear-gradient(top, #474747, #292929);
   background: linear-gradient(top, #474747, #292929);
+  border-radius: 10px 10px 0 0;
 }
 .sidebar-widgets.widget-area .widget-title a {
   color: #f2f2f2;
@@ -7425,6 +7428,7 @@ div.sow-features-list .sow-features-feature h5,
 .jetpack_subscription_widget #subscribe-email input {
   padding: 0.55em 0.85em;
   width: 100%;
+  border-radius: 5px;
 }
 .jetpack_subscription_widget #subscribe-submit,
 .jetpack_subscription_widget .success p:last-child {
@@ -8468,6 +8472,28 @@ text-align: center !important;
     color: inherit !important;
     background: none !important;
 }
+
+.wp-block-button__link, .subscribe-submit .wp-block-button__link, .so-widget-sow-social-media-buttons .publisher a, .entry-content img, img, button, #subscribe-field-blog_subscription-3, .ginput_container{
+  border-radius: 5px
+}
+
+.menu-item-search .search-form .search-field{
+  /* border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;*/
+} 
+.sidebar-widgets .widget{
+  border-radius:10px;
+}
+.pagination a, .pagination .page-numbers.current, .pagination .dots{
+  border-radius: 50px
+
+}
+
+/* .mega-menu-item{
+  border-bottom: 1px solid #151515;
+  box-shadow: inset 0 0 1px 0 rgba(255,255,255,.1);
+} */
+
 @media (prefers-color-scheme: dark) {
   /* html, body, .site-header-content, .entry-content .more-link {
     background: #292929;
