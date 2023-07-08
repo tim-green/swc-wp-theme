@@ -8468,3 +8468,41 @@ text-align: center !important;
     color: inherit !important;
     background: none !important;
 }
+@media (prefers-color-scheme: dark) {
+  /* html, body, .site-header-content, .entry-content .more-link {
+    background: #292929;
+  }
+
+  .author-info{
+    border-color: #292929;
+  }
+  .site-title{
+    letter-spacing: 0;
+  }
+  .site-title, .site-title a, .entry-title a, p, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    color: #fff;
+  }
+
+  .hentry .article-wrap {
+    background: #0d0d0d;
+    box-shadow: none;
+  }
+  .article-footer .entry-meta, .featured-image {
+    background: #393939;  
+  }
+
+  .sidebar-widgets .widget {
+    padding: 1.625em;
+    background: #0d0d0d;
+    box-shadow: 0 2px 0 #000;
+  }
+
+  .navigation a, .pagination .page-numbers.current{
+    background: #393939;  
+    /* background: linear-gradient(to bottom,#474747,#292929); */
+  /* } */
+  /* .navigation a:hover, .pagination .page-numbers.current, .footer-widgets .publisher-posts-loop-widget .pagination .page-numbers.current{
+    background: #000;  
+  } */ 
+}
+
