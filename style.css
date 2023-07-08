@@ -2166,6 +2166,15 @@ p.alert.danger {
   font-size: 0.9375em;
   margin: 0;
 }
+
+.entry-content ul{
+  margin-left: .925em !important
+}
+
+.entry-content li{
+  margin-bottom: .925em;
+}
+
 .entry-content .moretag {
   text-decoration: none;
   padding-top: 1.625em;
