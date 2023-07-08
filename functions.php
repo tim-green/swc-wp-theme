@@ -680,3 +680,11 @@ function my_set_image_meta_upon_image_upload( $post_ID ) {
 // add_action( 'wp_enqueue_scripts', 'custom_syntax_highlighting' );
 
 
+// remove wp version number from scripts and styles
+function remove_css_js_version( $src ) {
+    if( strpos( $src, '?ver=' ) )
+        $src = remove_query_arg( 'ver', $src );
+    return $src;
+}
+add_filter( 'style_loader_src', 'remove_css_js_version', 9999 );
+add_filter( 'script_loader_src', 'remove_css_js_version', 9999 );
