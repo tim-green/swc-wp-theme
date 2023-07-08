@@ -203,6 +203,10 @@ textarea {
   line-height: 1.625em;
   color: #484848;
 }
+::selection{
+  background: #444;
+  color: #f2f2f2;
+}
 /* Links
 ----------------------------------------------- */
 a {
