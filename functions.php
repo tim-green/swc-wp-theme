@@ -668,8 +668,6 @@ function my_set_image_meta_upon_image_upload( $post_ID ) {
 	} 
 }
 
-
-
 //Adding function for custom syntax using Prism.js
 // function custom_syntax_highlighting() {
 //     if ( ! is_admin() ) {
