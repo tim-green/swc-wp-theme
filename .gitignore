@@ -1,2 +1,5 @@
 includes/.DS_Store
 .DS_Store
+php_errorlog
+error_log
+includes/plugins.tar.bz2
