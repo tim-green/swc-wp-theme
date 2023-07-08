@@ -173,7 +173,8 @@ function publisher_enqueue_scripts() {
 	/**
      * Animate
      */
-	/*wp_enqueue_style( 'publisher-animate-style', get_template_directory_uri() . '/includes/css/animate.css', array(), '1.0.0', 'screen' );*/
+	
+	 wp_enqueue_style( 'publisher-animate-style', get_template_directory_uri() . '/includes/css/animate.css', array(), '1.0.0', 'screen' );
 
 	/**
      * Google Fonts
@@ -249,7 +250,7 @@ function publisher_admin_enqueue_scripts( $hook_suffix ) {
 	/**
      * Admin CSS
      */
-    wp_enqueue_style( 'publisher-admin-style', get_template_directory_uri() . '/includes/css/publisher-admin.css' );
+    wp_enqueue_style( 'publisher-admin-style', get_template_directory_uri() . '/includes/css/publisher-admin.css');
 
 	/**
      * Google Fonts
