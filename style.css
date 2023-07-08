@@ -3249,6 +3249,12 @@ div.post-flash-icon a,
   list-style-type: none;
   margin: 0 0 .75em;
   position: relative;
+  transition: ease-out 5ms;
+}
+
+.widget-area .widget li:hover{
+  background: #e8e8e8;
+  transition: ease-in 5ms;
 }
 .widget-area .widget li:before {
   content: "\f0da";
