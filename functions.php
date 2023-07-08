@@ -69,11 +69,14 @@ function publisher_setup_theme() {
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size( 150, 150, true ); // Default Thumb
-	add_image_size( 'publisher-post-thumb-standard', 790, 9999, false ); // Post Thumbnail
-	add_image_size( 'publisher-post-thumb-large', 1198, 9999, false ); // Post Thumbnail Large
-	add_image_size( 'publisher-post-thumb-medium', 600, 9999, false ); // Post Thumbnail Medium
-	//add_image_size( 'publisher-post-thumb-small', 400, 9999, false ); // Post Thumbnail Small
+	
+  //disable on january 2022
+  //set_post_thumbnail_size( 150, 150, true ); // Default Thumb
+	//add_image_size( 'publisher-post-thumb-standard', 790, 9999, false ); // Post Thumbnail
+	//add_image_size( 'publisher-post-thumb-large', 1198, 9999, false ); // Post Thumbnail Large
+	//add_image_size( 'publisher-post-thumb-medium', 600, 9999, false ); // Post Thumbnail Medium
+	
+  //add_image_size( 'publisher-post-thumb-small', 400, 9999, false ); // Post Thumbnail Small
 	//add_image_size( 'publisher-post-thumb-square', 400, 400, true ); // Post Thumbnail Square
 
 /**
