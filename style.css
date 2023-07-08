@@ -2191,7 +2191,7 @@ p.alert.danger {
   color: #9a9a9a;
   padding: 0.50em 1em;
   border: none;
-  border-radius: 0;
+  border-radius: 5px;
   display: inline-block;
   background: #e8e8e8;
   -webkit-appearance: none;
