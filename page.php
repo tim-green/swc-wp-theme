@@ -37,7 +37,7 @@ get_header(); ?>
 
 				endwhile;
 			?>
-
+			
 		</main><!-- #main -->
 
 		<?php do_action( 'publisher_action_page_below_site_main' ); ?>
