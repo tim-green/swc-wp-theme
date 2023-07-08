@@ -190,6 +190,11 @@ function publisher_enqueue_scripts() {
      */
 	wp_enqueue_script( 'publisher-scripts-js', get_template_directory_uri() . '/includes/js/publisher-scripts.js', array( 'jquery' ), '1.0.0', true );
 
+	/***
+	 * FontAwesome
+	 */
+	wp_enqueue_script('fa-pro', 'https://kit.fontawesome.com/8431c0b63d.js');
+
 	/**
      * Fitvids
      */
