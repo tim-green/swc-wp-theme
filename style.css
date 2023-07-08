@@ -2172,7 +2172,7 @@ p.alert.danger {
 }
 
 .entry-content ul{
-  margin-left: .925em !important
+  /* margin-left: .925em !important */
 }
 
 .entry-content li{
