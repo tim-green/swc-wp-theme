@@ -2602,6 +2602,7 @@ div.post-flash-icon a,
   line-height: 1em;
   letter-spacing: -0.035em;
   margin-bottom: 0;
+  /* text-shadow: 0 0 14px #a6a6a6; */
 }
 .has-featured-header-image .hero-title,
 .has-featured-header-video .hero-title,
