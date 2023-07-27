@@ -64,5 +64,7 @@
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "hnnmsbao42");
 </script>
+<!-- loado Code -->
+<script async src='https://cdn.loado.dev/sdk.js'></script>
 </body>
 </html>
