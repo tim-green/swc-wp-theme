@@ -156,6 +156,11 @@ function publisher_enqueue_scripts() {
      * Main Stylesheet
      */
 	wp_enqueue_style( 'publisher-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'publisher-app', get_stylesheet_directory_uri() . '/app.min.css');
+	/**
+     * Dark mode
+     */
+	// wp_enqueue_style( 'publisher-style-dark', get_stylesheet_directory_uri() . '/dark.css', array( 'publisher-style' ) );
 
 	/**
      * IE < 10 Stylesheet
@@ -686,3 +691,5 @@ function remove_css_js_version( $src ) {
 }
 add_filter( 'style_loader_src', 'remove_css_js_version', 9999 );
 add_filter( 'script_loader_src', 'remove_css_js_version', 9999 );
+
+
