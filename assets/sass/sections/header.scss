@@ -1,0 +1,223 @@
+/*
+
+  Header
+  +
+
+*/
+
+  /*-----------------------------------------------------------------------------------*/
+  /*	4.  Header
+  /*-----------------------------------------------------------------------------------*/
+  .site-header {
+    font-family: "Oxygen", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #9a9a9a;
+    position: relative;
+  }
+  .site-header-content {
+    position: relative;
+    z-index: 15;
+    background: #ffffff;
+  }
+  .site-header-content-wrap {
+    padding: 1.625em 3%;
+  }
+  .site-header-content-wrap .container {
+    display: table;
+    width: 100%;
+  }
+  .site-header-content-wrap .nameplate,
+  .site-header-content-wrap .header-extras {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .site-header-content-wrap .header-extras {
+    text-align: right;
+    padding-left: 1em;
+  }
+  /* Nameplate
+  ----------------------------------------------- */
+  .site-title {
+    font-size: 2.375em;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1em;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  .site-title a,
+  .logo-image {
+    color: #292929;
+    opacity: 1;
+    -webkit-transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+    -o-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+  }
+  .site-title a:hover,
+  .logo-image:hover {
+    opacity: .75;
+  }
+  .site-logo-link {
+    font-size: 1em;
+    line-height: 1;
+    margin-bottom: 0.750em;
+    display: inline-block;
+  }
+  .site-description {
+    font-size: 0.8125em;
+    font-weight: bold;
+    line-height: 1.625em;
+    text-transform: uppercase;
+    color: #9a9a9a;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* Logo */
+  .logo-image {
+    margin: 0;
+  }
+  .logo-image .site-title {
+    display: none;
+  }
+  /* Header Background
+  ----------------------------------------------- */
+  .site-background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -9999;
+  }
+  /* Toggles
+  ----------------------------------------------- */
+  .toggle-button {
+    font-size: 2.250em;
+    text-align: center;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    /* Prevent text select when clicking toggle bar */
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+  }
+  .toggle-button:hover {
+    color: #fd6763;
+  }
+  .no-js .toggle-button {
+    display: none;
+  }
+  /* Nav Bar
+  ----------------------------------------------- */
+  .site-navbar {
+    padding: 0 3%;
+    margin-bottom: 1.625em;
+  }
+  .site-navbar .container {
+    position: relative;
+  }
+  /* Headband
+  ----------------------------------------------- */
+  .headband {
+    font-size: 0.75em;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: .5em 3%;
+    background: #292929;
+  }
+  .headband,
+  .headband h1,
+  .headband h2,
+  .headband h3,
+  .headband h4,
+  .headband h5,
+  .headband h6 {
+    color: #7a7a7a;
+  }
+  .headband a {
+    color: #7a7a7a;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+  }
+  .headband a:hover {
+    color: #f2f2f2;
+  }
+  .headband .container {
+    display: table;
+    width: 100%;
+  }
+  .headband-navigation {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .headband-navigation.left {
+    float: left;
+  }
+  .headband-navigation.right {
+    float: right;
+  }
+  /* Call To Action
+  ----------------------------------------------- */
+  #call-to-action {
+    background: #fd6763;
+    background-position: center center;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  #call-to-action.full-cover {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  #call-to-action.tiled {
+    background-repeat: repeat;
+  }
+  #call-to-action:hover {
+    opacity: .85;
+  }
+  #call-to-action.cta-no-image:hover {
+    background-color: #242424;
+    opacity: 1;
+  }
+  #call-to-action a {
+    font-size: 1em;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 1.625em;
+    letter-spacing: .05em;
+    color: #f2f2f2;
+    padding: .8em 3%;
+    display: block;
+  }
+  #call-to-action a .container {
+    display: table;
+    width: 100%;
+  }
+  #call-to-action a .container span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  #call-to-action .cta-text {
+    width: 100%;
+  }
+  #call-to-action .cta-button {
+    font-size: 0.8125em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding: .25em 1em;
+    border: 1px solid #f2f2f2;
+    white-space: nowrap;
+  }
