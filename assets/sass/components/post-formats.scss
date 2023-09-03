@@ -1,0 +1,193 @@
+/*
+
+  Post Formats
+  +
+
+*/
+/*-----------------------------------------------------------------------------------*/
+  /*	8.  Post Formats
+  /*-----------------------------------------------------------------------------------*/
+  .posts-index .format-gallery:not(.publisher-ext) .article-wrap,
+  .posts-index .format-quote:not(.publisher-ext) .article-wrap {
+    position: relative;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .posts-index .format-gallery:not(.publisher-ext) .article-wrap .entry-meta.header i,
+  .posts-index .format-image:not(.publisher-ext) .article-wrap .entry-meta.header i {
+    margin-right: .35em;
+  }
+  /* Image
+  ----------------------------------------------- */
+  .posts-index .cover.hentry.format-image:not(.publisher-ext) .article-wrap {
+    min-height: initial;
+  }
+  .posts-index .format-image:not(.publisher-ext) .article-wrap .entry-wrap {
+    padding: 0;
+  }
+  .posts-index .format-image:not(.publisher-ext) .article-wrap .entry-header {
+    padding: 1.625em;
+    width: auto;
+    position: absolute;
+    z-index: 5;
+  }
+  .posts-index .format-image:not(.publisher-ext) .article-wrap .entry-title {
+    font-size: 0.8125em;
+    font-weight: bold;
+    line-height: 1.625em;
+    margin-bottom: 0;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+  }
+  .posts-index .format-image:not(.publisher-ext) .article-wrap .entry-title a {
+    color: #9a9a9a;
+    padding: .22em .75em;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #e8e8e8;
+  }
+  .posts-index .format-image:not(.publisher-ext) .article-wrap .entry-title a.tax-color {
+    color: #ffffff;
+  }
+  .posts-index .format-image:not(.publisher-ext) .article-wrap .entry-title a:before {
+    content: "\f1c5";
+    font-family: "FontAwesome";
+    margin-right: .35em;
+  }
+  .posts-index .format-image:not(.publisher-ext) .article-wrap .entry-title a:hover {
+    opacity: .85;
+  }
+  .posts-index .format-image:not(.publisher-ext) .article-wrap .entry-content img {
+    width: 100%;
+  }
+  /* Entry Content */
+  .posts-index .format-image:not(.publisher-ext) .article-wrap .entry-content {
+    font-size: 1em;
+    min-height: 5.4437500000000005em;
+  }
+  .posts-index .format-image:not(.publisher-ext) .article-wrap .entry-content .caption {
+    color: #ffffff;
+    margin: 1.625em;
+    position: absolute;
+    bottom: 0;
+    background: #000000;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+    -o-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+  }
+  .posts-index .format-image.hentry:not(.publisher-ext) .article-wrap.active .entry-content .caption {
+    opacity: 1;
+  }
+  .posts-index .format-image:not(.publisher-ext) .article-wrap .entry-content .caption p {
+    font-size: 0.8125em;
+    padding: .25em 1em;
+    margin: 0;
+  }
+  /* Quote
+  ----------------------------------------------- */
+  .posts-index .format-quote:not(.publisher-ext) .article-wrap .entry-meta i {
+    margin: 0;
+  }
+  .posts-index .format-quote:not(.publisher-ext) .article-wrap {
+    text-align: center;
+    background: #292929;
+  }
+  .posts-index .format-quote:not(.publisher-ext) .article-wrap .featured-image-background {
+    opacity: .35;
+  }
+  .cover.hentry.format-quote:not(.publisher-ext) .article-wrap.active .featured-image-background,
+  .no-js .cover.hentry.format-quote:not(.publisher-ext) .article-wrap:hover .featured-image-background {
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  .posts-index .format-quote:not(.publisher-ext) .article-wrap .entry-wrap {
+    padding-top: 3.25em;
+    padding-bottom: 3.25em;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+  }
+  .posts-index .format-quote:not(.publisher-ext) .article-wrap blockquote {
+    font-size: 1.625em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    color: #ffffff;
+    padding: 0;
+    margin-bottom: 0;
+    border: 0;
+  }
+  .posts-index .format-quote:not(.publisher-ext) .article-wrap .meta-quote-info a,
+  .posts-index .format-quote:not(.publisher-ext) .article-wrap blockquote a {
+    color: #ffffff;
+    opacity: 1;
+    -webkit-transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+    -o-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+  }
+  .posts-index .format-quote:not(.publisher-ext) .article-wrap .meta-quote-info a:hover,
+  .posts-index .format-quote:not(.publisher-ext) .article-wrap blockquote a:hover {
+    opacity: .85;
+  }
+  .posts-index .format-quote:not(.publisher-ext) .article-wrap .entry-meta.header .meta-date {
+    position: relative;
+    top: 0;
+    display: none;
+  }
+  .posts-index .format-quote:not(.publisher-ext) .entry-title {
+    display: none;
+  }
+  /* Meta Quote Info */
+  .posts-index .format-quote:not(.publisher-ext) .article-wrap .meta-quote-info a {
+    font-size: 2.25em;
+    line-height: 1em;
+    background: none;
+  }
+  /* Entry Content */
+  .posts-index .format-quote:not(.publisher-ext) .article-wrap .entry-content {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  /* Link
+  ----------------------------------------------- */
+  .posts-index .format-link:not(.publisher-ext) .article-wrap .entry-wrap {
+    padding: 3.25em 4%;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+  }
+  .posts-index .format-link:not(.publisher-ext) .article-wrap .entry-header,
+  .posts-index .format-link:not(.publisher-ext) .article-wrap .entry-content {
+    text-align: center;
+    margin: 0;
+  }
+  .posts-index .format-link:not(.publisher-ext) .article-wrap .entry-title {
+    margin-bottom: .25em;
+  }
+  .posts-index .format-link:not(.publisher-ext) .article-wrap .entry-title a i {
+    margin-right: .15em;
+  }
+  .posts-index .format-link:not(.publisher-ext) .article-wrap .entry-meta.header {
+    display: none;
+  }
+  .posts-index .format-link:not(.publisher-ext) .article-wrap .entry-content {
+    font-size: 1.125em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #292929;
+    line-height: 1.625em;
+  }
+  .posts-index .format-link:not(.publisher-ext) .article-wrap .entry-content .post-link {
+    color: #292929;
+    text-decoration: none;
+  }
+  .posts-index .format-link.has-post-thumbnail:not(.publisher-ext) .article-wrap {
+    background: #292929;
+  }
+  .posts-index .format-link.has-post-thumbnail:not(.publisher-ext) .article-wrap a {
+    color: #ffffff;
+  }
