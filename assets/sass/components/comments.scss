@@ -1,0 +1,279 @@
+/*
+
+  Comments
+  +
+
+*/
+
+  /*-----------------------------------------------------------------------------------*/
+  /*	6.  Comments
+  /*-----------------------------------------------------------------------------------*/
+  .comments-area {
+    color: #484848;
+    margin-bottom: 1.625em;
+  }
+  .comments-wrap {
+    margin-bottom: 2%;
+    background: #ffffff;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 #e8e8e8;
+  }
+  .comments-title,
+  .comment-reply-title {
+    font-size: 0.75em;
+    color: #9a9a9a;
+    text-transform: uppercase;
+    padding: 1.625em 4%;
+    margin: 0;
+  }
+  .comments-title {
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: #f5f5f5;
+  }
+  .comment-reply-title {
+    border-top-width: 2px;
+    border-style: solid;
+    border-color: #f5f5f5;
+  }
+  /* Comments List
+  ----------------------------------------------- */
+  .comments-area ol.comment-list,
+  .comments-area ol.children {
+    margin: 0;
+    list-style: none;
+    position: relative;
+  }
+  .comment-list ol.children > li:before {
+    content: "\f064";
+    font-family: "FontAwesome";
+    color: #9a9a9a;
+    position: absolute;
+    top: 2.625em;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: .5;
+  }
+  .comments-area > ol ol.children {
+    padding-left: 5.5%;
+  }
+  .comment-list > li {
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: #f5f5f5;
+    position: relative;
+  }
+  .comment-list > li:last-child {
+    border-bottom: none;
+  }
+  .comment-list .children li {
+    padding-left: 4%;
+    border-bottom: none;
+  }
+  /* Comments
+  ----------------------------------------------- */
+  .comments-area .comment-meta,
+  .comments-area .comment-content,
+  .comments-area .reply {
+    padding-left: 2.5%;
+    margin-left: 60px;
+  }
+  .comment-body {
+    padding: 1.625em 4%;
+  }
+  .children .comment-body {
+    padding-right: 0;
+    margin-right: 4%;
+    border: 0;
+    border-top-width: 2px;
+    border-style: dotted;
+    border-color: #e8e8e8;
+  }
+  /* Comment Meta
+  ----------------------------------------------- */
+  .comment-meta {
+    margin-bottom: .75em;
+  }
+  /* Comment Author */
+  .comment-author {
+    float: left;
+  }
+  .comment-author .avatar {
+    position: absolute;
+    left: 4%;
+    border-radius: 50px;
+  }
+  .children .comment-author .avatar {
+    left: 8%;
+  }
+  .comment-author-icon {
+    margin-right: .1em;
+  }
+  .comment-author-icon,
+  .comment-author-icon:hover {
+    color: #9a9a9a;
+  }
+  .comment-author cite,
+  .comment-author .says {
+    font-style: normal;
+    font-family: "Oxygen", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .comment-author cite,
+  .comment-author cite a {
+    font-weight: bold;
+    color: #292929;
+  }
+  .comment-author span,
+  .comment-metadata .comment-time span {
+    display: none;
+  }
+  /* Comment Metadata */
+  .comment-metadata {
+    font-size: 0.875em;
+    text-align: right;
+  }
+  .comment-metadata a {
+    color: #9a9a9a;
+  }
+  .comment-metadata i {
+    margin-right: .4em;
+  }
+  /* Comment Content
+  ----------------------------------------------- */
+  .comment-content {
+    font-size: 0.9375em;
+    line-height: 1.8em;
+    position: relative;
+    opacity: .85;
+  }
+  .comment-content p {
+    margin-bottom: 1.2em;
+  }
+  .comment-content a {
+    word-wrap: break-word;
+  }
+  /* Comment Reply */
+  .comments-area .reply {
+    font-size: 0.75em;
+    font-weight: bold;
+    letter-spacing: .075em;
+    text-transform: uppercase;
+  }
+  .comments-area .reply a {
+    color: #292929;
+  }
+  /* Pingback */
+  .pingback .comment-meta,
+  .pingback .comment-author,
+  .pingback .comment-metadata,
+  .pingback .comment-content {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .pingback .comment-author .avatar,
+  .pingback .comment-author .says {
+    display: none;
+  }
+  /* General Styles */
+  .bypostauthor {
+    display: block;
+  }
+  .comment-awaiting-moderation {
+    color: #9a9a9a;
+    margin-bottom: 1.625em;
+    display: block;
+  }
+  .no-comments {
+    text-align: center;
+    display: none;
+  }
+  /* Reply Form
+  ----------------------------------------------- */
+  .comment-respond {
+    position: relative;
+  }
+  .comment-form {
+    padding: 0 4%;
+  }
+  .comment-form p {
+    margin-bottom: 2%;
+  }
+  .comment-form textarea,
+  .comment-form input[type="text"],
+  .comment-form input[type="email"],
+  .comment-form input[type="url"],
+  .comment-form input[type="password"],
+  .comment-form input[type="search"] {
+    font-size: 0.875em;
+    width: 100%;
+  }
+  /* Logged In As */
+  .logged-in .comment-form .logged-in-as-text {
+    display: none;
+  }
+  .logged-in .comment-form .user-identity {
+    font-family: "Oxygen", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #292929;
+    margin-right: .5em;
+  }
+  .logged-in .comment-form .logged-in-as img {
+    margin-right: .5em;
+    border-radius: 50px;
+  }
+  /* Log Out */
+  .logged-in .comment-form .logged-in-as {
+    display: inline-block;
+  }
+  .logged-in .comment-form .logged-in-as .log-out-text {
+    font-size: 0.875em;
+    color: #9a9a9a;
+    opacity: 0;
+  }
+  .logged-in .comment-form .logged-in-as.active .log-out-text,
+  .no-js .logged-in .comment-form .logged-in-as:hover .log-out-text {
+    opacity: .75;
+  }
+  .logged-in .comment-form .log-out-text span {
+    margin-right: .5em;
+  }
+  /* Submit */
+  .comment-form .form-submit {
+    margin-bottom: 1.625em;
+  }
+  /* Reply Form Comment */
+  .comment-list .comment-form {
+    margin-bottom: 1em;
+  }
+  .comment-reply-title {
+    border-top-width: 2px;
+    border-style: solid;
+    border-color: #f5f5f5;
+  }
+  .comment-list .children .comment-reply-title {
+    padding-top: 0;
+    border-top: none;
+  }
+  .comment-list .comment-reply-title small {
+    font-size: 1.1666666666666667em;
+    text-transform: none;
+    float: right;
+  }
+  .comment-list .comment-reply-title small span {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: auto;
+  }
+  #cancel-comment-reply-link,
+  .comment-respond .required {
+    color: #9a9a9a;
+  }
+  /* Logged Out */
+  .comment-notes {
+    color: #9a9a9a;
+    display: none;
+  }
+  .comment-form .comment-form-comment label {
+    display: none;
+  }
