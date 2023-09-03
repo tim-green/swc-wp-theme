@@ -1,0 +1,62 @@
+/*
+
+  Footer
+  +
+
+*/
+
+  /*-----------------------------------------------------------------------------------*/
+  /*	7.  Footer
+  /*-----------------------------------------------------------------------------------*/
+  .site-footer {
+    color: #7a7a7a;
+    background: #292929;
+  }
+  .site-footer-content {
+    position: relative;
+    z-index: 1;
+  }
+  .site-footer-content table {
+    color: #7a7a7a;
+  }
+  .site-footer-content table thead,
+  .site-footer-content table tr:nth-child(even) {
+    background: #262626;
+  }
+  .site-footer-widgets {
+    padding: 4.875em 3% 3.25em;
+  }
+  #footer .site-footer-content .button,
+  .footer-widgets .publisher-posts-loop-widget .navigation a {
+    color: #cccccc;
+    background: #7a7a7a;
+  }
+  #footer .site-footer-content .button:hover,
+  .footer-widgets .publisher-posts-loop-widget .navigation a:hover {
+    color: #f2f2f2;
+    background: #262626;
+  }
+  /* Footnote
+  ----------------------------------------------- */
+  .footnote {
+    font-size: 0.875em;
+    color: #555555;
+    padding: 1.625em 3%;
+    background: #262626;
+  }
+  .footnote a {
+    color: #7a7a7a;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+  }
+  .footnote a:hover {
+    color: #f2f2f2;
+  }
+  .footnote .site-info {
+    display: inline-block;
+  }
+  .footnote .footer-navigation {
+    float: right;
+  }
