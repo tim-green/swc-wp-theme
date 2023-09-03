@@ -45,6 +45,7 @@ html {
 body {
   background: #f5f5f5;
   /* Fallback for when there is no custom background color defined. */
+  text-rendering: optimizeSpeed;
 
 }
 article, aside, details, figcaption, figure, footer, header, main, nav, section {
@@ -778,6 +779,7 @@ a img {
   .publisher-column-10 {
     width: 10%;
   }
+  
   /*-----------------------------------------------------------------------------------*/
   /*	2.  Theme Structure
   /*-----------------------------------------------------------------------------------*/
