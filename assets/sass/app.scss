@@ -1,0 +1,35 @@
+/*!
+  This is the core import file for SomeWhat Theme by TimGreen
+*/
+
+
+
+
+/*
+
+ Sass imports for SWC
+
+*/
+
+
+@import "modules/mixins";
+@import "modules/variables";
+@import "modules/wp-default";
+@import "modules/base";
+
+
+@import "components/comments";
+@import "components/forum";
+@import "components/navigation";
+@import "components/page-templates";
+@import "components/post-formats";
+@import "components/widgets";
+@import "components/woocommerce";
+@import "components/swc-alts";
+
+@import "plugins/plugins";
+@import "sections/header";
+@import "sections/content";
+@import "sections/footer";
+
+@import "modules/mediaqueries";
