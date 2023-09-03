@@ -3,3 +3,5 @@ includes/.DS_Store
 php_errorlog
 error_log
 includes/plugins.tar.bz2
+node_modules
+style to import into the sass files.css
