@@ -1,0 +1,111 @@
+/*
+Description: Dark mode for SomeWhat
+Author: Tim
+Version: 1.0
+*/
+
+@media (prefers-color-scheme: dark) {
+  body,.site-header-content,.entry-content .more-link {
+    background:#242424
+    }
+    .entry-content .more-link{
+        box-shadow: 0 2px 0 transparent;
+        border: 1px solid #9a9a9a;
+    }
+    
+    .site-title a,.logo-image,.author-title a {
+    color:#f5f5f5
+    }
+    
+
+    .entry-content .more-link,.hentry .article-wrap {
+    background:#151515;
+    box-shadow:0 2px 0 transparent
+    }
+    
+    .entry-wrap {
+    padding:2em 4%;
+    border:1px solid #000
+    }
+    
+    body,button,input,select,textarea,.entry-title,.entry-title a,p,.entry-content p,.entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6,.entry-content ul,.entry-content ol,.entry-content li {
+    color:#d9d9d9
+    }
+    
+    p.alert.info,.alert {
+    color:#000
+    }
+    
+    a {
+    color:#9a9a9a
+    }
+    a:hover{
+        color: #f2f2f2;
+    }
+    .navigation a,.pagination .page-numbers.current {
+    background:#000
+    }
+    
+    .breadcrumbs-menu li.current {
+    color:#fff
+    }
+    
+    .author-info {
+    border-color:#000
+    }
+    
+    .sidebar-widgets .widget {
+    background:#151515;
+    box-shadow:0 2px 0 #000
+    }
+    
+    .site-footer {
+    background:#131313
+    }
+    
+    .sidebar-widgets .widget_archive li,.sidebar-widgets .widget_categories li,.sidebar-widgets .widget_meta li,.sidebar-widgets .widget_nav_menu li,.sidebar-widgets .widget_pages li,.sidebar-widgets .widget_recent_comments li,.sidebar-widgets .widget_recent_entries li,.sidebar-widgets .widget_rss li,.sidebar-widgets .widget_archives li,.sidebar-widgets .widget_recent-posts li,.sidebar-widgets .widget_recent-comments li {
+    border-top-width:1px;
+    border-style:solid;
+    border-color:#383838
+    }
+    
+    .widget-area .widget li:hover {
+    background:transparent;
+    transition:ease-in 5ms;
+    text-decoration:underline
+    }
+    
+    #disqus_thread {
+    margin-bottom:1.625em;
+    background:#000;
+    padding:22px
+    }
+    
+    .gform_legacy_markup_wrapper div.validation_error,.gform_legacy_markup_wrapper ol.validation_list {
+    color:#e88282
+    }
+    
+    .gform_legacy_markup_wrapper div.validation_error,.gform_legacy_markup_wrapper .gform_validation_errors {
+    border-color:#ff7a7a
+    }
+    
+    .gform_legacy_markup_wrapper .gform_validation_errors > h2,.gform_legacy_markup_wrapper .gfield_error .gfield_label,.gform_legacy_markup_wrapper .validation_message,.gform_legacy_markup_wrapper .gfield_required {
+    color:#ff7a7a
+    }
+    
+    .gform_legacy_markup_wrapper li.gfield.gfield_error,.gform_legacy_markup_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    background-color:rgba(253,180,182,0.25)
+    }
+    .site-featured-header .site-featured-header-image,  #featured-header, .site-featured-header, .search-results #featured-header {
+        background-color:#303030 !important
+        }
+        
+        .hero-title {
+            color: #bcbcbc;
+            text-transform: capitalize;
+        }
+        .hero-description {
+            color: #292929 !important;
+          }
+    
+}
