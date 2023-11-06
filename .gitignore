@@ -5,3 +5,5 @@ error_log
 includes/plugins.tar.bz2
 node_modules
 style to import into the sass files.css
+.cosine
+includes/plugins/acf/acf-widget.php
