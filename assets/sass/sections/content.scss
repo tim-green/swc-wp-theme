@@ -717,6 +717,8 @@
   }
   .author-title a {
     color: #fff;
+    text-transform: capitalize;
+    text-decoration: 2px solid underline;
   }
   .author-title a:hover {
     opacity: .75;
