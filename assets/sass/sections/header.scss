@@ -34,6 +34,13 @@
     text-align: right;
     padding-left: 1em;
   }
+
+  @media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    #mega-menu-wrap-publisher-menu-primary #mega-menu-publisher-menu-primary .additional-menu-items>ul {
+      min-height: 59px;
+  }
+}
   /* Nameplate
   ----------------------------------------------- */
   .site-title {
