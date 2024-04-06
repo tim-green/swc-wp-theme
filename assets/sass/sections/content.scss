@@ -380,7 +380,7 @@
     color: #9a9a9a;
     padding: .22em .75em;
     margin: 0 .25em .75em 0;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: #e8e8e8;
   }
   .entry-meta .meta-category a:last-child {
@@ -467,7 +467,7 @@
     color: #9a9a9a;
     padding: .22em .75em;
     margin: 0 .35em .5em 0;
-    border-radius: 15px;
+    border-radius: 5px;
     display: inline-block;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -693,7 +693,8 @@
     width: 100px;
   }
   .author-avatar img {
-    border-radius: 100px;
+    // border-radius: 100px;
+    border-radius: 10px;
     width: 120px;
   }
   .author-title {
