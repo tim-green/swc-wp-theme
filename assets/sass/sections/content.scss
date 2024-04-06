@@ -311,6 +311,12 @@
   .meta-author{
     top: -2px;
     position: relative;
+    
+    img {
+      border-radius: 5px;
+      margin-right: .4em;
+    }
+  }
   .meta-date{
     top: -2px;
     position: relative;
