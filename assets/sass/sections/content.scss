@@ -308,10 +308,14 @@
     opacity: .85;
   }
   /* Misc */
-  .meta-author img {
-    border-radius: 30px;
-    margin-right: .4em;
+  .meta-author{
+    top: -2px;
+    position: relative;
+  .meta-date{
+    top: -2px;
+    position: relative;
   }
+
   /* Entry Meta
   ----------------------------------------------- */
   .entry-meta {
