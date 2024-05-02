@@ -692,4 +692,13 @@ function remove_css_js_version( $src ) {
 add_filter( 'style_loader_src', 'remove_css_js_version', 9999 );
 add_filter( 'script_loader_src', 'remove_css_js_version', 9999 );
 
+// alowing SVG to uploaded into SomeWhat!
+// Enable SVG uploads for administrators only
+function allowing_only_tim_svg( $mimes ) {
+    if ( current_user_can( 'administrator' ) ) {
+        $mimes['svg'] = 'image/svg+xml';
+    }
+    return $mimes;
+}
+add_filter( 'upload_mimes', 'allowing_only_tim_svg' );
 
