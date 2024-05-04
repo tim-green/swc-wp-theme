@@ -27,30 +27,18 @@ get_header(); ?>
     			// 	echo '<div class="swc-old-notice">This post was last updated over a year ago, therefore the contents of this post may be out of date.</div>';
     			// 	}
 			
-			
 			// Define old post duration to one year
-$time_defined_as_old = 60*60*24*365; 
- 
-// Check to see if a post is older than a year
-if((date('U')-get_the_time('U')) > $time_defined_as_old) {
- 
-$lastmodified = get_the_modified_time('U');
-$posted = get_the_time('U');
- 
-//check if the post was updated after being published
- if ($lastmodified > $posted) {
-  
-// Display last updated notice
-      echo '<div class="swc-old-notice"><i class="fa-regular fa-circle-exclamation"></i> This article was last updated ' . human_time_diff($lastmodified,current_time('U')) . ' ago, therefore the contents of this post could be out of date.</div>';   
- 
-  } else { 
-// Display last published notice 
-echo '<div class="swc-old-notice"><i class="swc-fa fa-regular fa-circle-exclamation"></i> This article was published ' . human_time_diff($posted,current_time( 'U' )). ' ago, therefore the contents of this post may be out of date.</div>';
- 
-}
-}
+				$time_defined_as_old = 60*60*24*365; 
 
-				while ( have_posts() ) : the_post();
+				// Check to see if a post is older than a year
+				if((date('U') - get_the_time('U')) > $time_defined_as_old) {
+					$posted = get_the_time('U');
+					
+					// Display last published notice 
+					echo '<div class="swc-old-notice"><i class="swc-fa fa-regular fa-circle-exclamation"></i> This article was published ' . human_time_diff($posted, current_time('U')). ' ago, therefore the contents of this post may be out of date.</div>';
+				}
+
+				while (have_posts()) : the_post();
 
 					/**
 					 * @hooked publisher_single_content - 10
@@ -58,7 +46,7 @@ echo '<div class="swc-old-notice"><i class="swc-fa fa-regular fa-circle-exclamat
 					 * @hooked publisher_single_related_posts - 30
 					 * @hooked publisher_single_comments_template - 40
 					 */
-					do_action( 'publisher_action_single_loop' );
+					do_action('publisher_action_single_loop');
 
 				endwhile;
 			?>
