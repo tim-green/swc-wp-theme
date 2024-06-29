@@ -702,3 +702,22 @@ function allowing_only_tim_svg( $mimes ) {
 }
 add_filter( 'upload_mimes', 'allowing_only_tim_svg' );
 
+
+// redirect /latest to the latest post
+function redirect_to_latest_post() {
+    if (preg_match('/latest\/?$/', $_SERVER['REQUEST_URI'])) {
+        $latest_post = get_posts(array(
+            'numberposts' => 1,
+            'post_status' => 'publish'
+        ));
+
+        if (!empty($latest_post)) {
+            $latest_post_url = get_permalink($latest_post[0]->ID);
+            wp_redirect($latest_post_url);
+            exit;
+        }
+    }
+}
+add_action('template_redirect', 'redirect_to_latest_post');
+
+
