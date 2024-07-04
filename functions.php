@@ -705,19 +705,25 @@ add_filter( 'upload_mimes', 'allowing_only_tim_svg' );
 
 // redirect /latest to the latest post
 function redirect_to_latest_post() {
-    if (preg_match('/latest\/?$/', $_SERVER['REQUEST_URI'])) {
-        $latest_post = get_posts(array(
-            'numberposts' => 1,
-            'post_status' => 'publish'
-        ));
+    // Sanitize the REQUEST_URI to prevent potential injection attacks
+    $request_uri = filter_var($_SERVER['REQUEST_URI'], FILTER_SANITIZE_URL);
 
-        if (!empty($latest_post)) {
+    if (strpos($request_uri, 'latest-post') !== false) {
+        // Fetch the latest published post
+        $latest_post = get_posts(['numberposts' => 1, 'post_status' => 'publish']);
+        
+        // Check if there's a latest post
+        if ($latest_post) {
+            // Safely redirect to the latest post permalink
             $latest_post_url = get_permalink($latest_post[0]->ID);
-            wp_redirect($latest_post_url);
-            exit;
+            if ($latest_post_url) {
+                wp_safe_redirect($latest_post_url);
+                exit;
+            }
         }
     }
 }
 add_action('template_redirect', 'redirect_to_latest_post');
+
 
 
