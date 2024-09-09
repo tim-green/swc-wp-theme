@@ -636,6 +636,22 @@ function wp_custom_logo() {
 					color: #fff!important;;
 				}
 
+				.forgetmenot, .privacy-policy-page-link, .privacy-policy-link, #nav, .wp-login-lost-password, #backtoblog,.login .message, .login .notice, .login .success{
+					display: none !important;
+				}
+				#login{
+					padding: 8% 0 0 !important;
+				}
+				#login form p.submit {
+					width: 100% !important;
+					display: inline-block !important;
+				}
+				#wp-submit{
+				width: 100% !important;
+				background: transparent !important;
+				border-color: #fff !important;
+				padding: 3px 0 !important;
+				}
                 </style>';
         }
     //hook into the administrative header output
