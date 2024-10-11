@@ -64,8 +64,7 @@
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "hnnmsbao42");
 </script>
-<!-- loado Code -->
-<script async src='https://cdn.loado.dev/sdk.js'></script>
+
 <!-- datapulse -->
 <script defer type="text/javascript" src="https://datapulse.app/datapulse.min.js" id="datapulse"           data-endpoint="https://datapulse.app/api/v1/event" data-workspace="cllwco0d65v1sdl371vztd66a" ></script>
 <!-- new relic -->
