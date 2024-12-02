@@ -143,6 +143,16 @@
   ----------------------------------------------- */
   #disqus_thread {
     margin-bottom: 1.625em;
+    .textarea-wrapper{
+
+    }
+
+    .compose-wrapper{
+      .textarea-wrapper{
+        box-shadow: 5px 6px 0 2px #191919;
+        border: 1px solid #191919;
+      }
+    }
   }
   /* Page Builder
   ----------------------------------------------- */
@@ -1920,4 +1930,14 @@
   .entry-layout-wide.has-post-gallery .owl-gallery .owl-nav .owl-prev {
     left: initial;
     right: 2em;
-  }/* JetPack: Related Posts----------------------------------------------- */.jp-relatedposts-post-img{  filter: grayscale(1);  transition: filter ease-in-out 5ms;  &:hover{    filter: grayscale(0);  }}
+  }
+
+/* JetPack: Related Posts
+----------------------------------------------- */
+.jp-relatedposts-post-img{
+  filter: grayscale(1);
+  transition: filter ease-in-out 5ms;
+  &:hover{
+    filter: grayscale(0);
+  }
+}
