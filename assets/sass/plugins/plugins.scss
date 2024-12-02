@@ -1686,6 +1686,28 @@
   .jetpack_subscription_widget .success p:last-child {
     margin: 0;
   }
+
+  #subscribe-submit button{
+    border: 1px solid #191919 !important;
+    background: transparent !important;
+    color: #000 !important;
+    font-size: .9333333333em !important;
+    &:hover{
+      color: #191919;
+      border: 2px solid #191919;
+      background: transparent;
+      box-shadow: 5px 4px 0 0px #191919;
+    }
+  }
+
+  .jetpack_subscription_widget #subscribe-email input {
+    padding: .55em .85em;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #191919;
+    background: transparent;
+  }
+  
   /* Jetpack: Related Posts
   ----------------------------------------------- */
   /*-----------------------------------------------------------------------------------*/
