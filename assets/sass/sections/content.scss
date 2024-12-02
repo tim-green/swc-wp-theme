@@ -439,16 +439,17 @@
     padding-top: 1.625em;
     display: block;
   }
-  .entry-content .more-link {
+  .entry-content .more-link{
     font-size: 0.9333333333333333em;
     text-decoration: none;
     line-height: 1.625em;
-    color: #9a9a9a;
+    // color: #9a9a9a;
+    color: #000;
     padding: 0.50em 1em;
     border: none;
     border-radius: 5px;
     display: inline-block;
-    background: #e8e8e8;
+    // background: #e8e8e8;
     -webkit-appearance: none;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -692,13 +693,15 @@
   /* Author Card
   ----------------------------------------------- */
   .author-info {
-    color: #fff;
+    // color: #fff;
+    color: #2d2d2d;
     padding: 1.625em 4%;
     border-top-width: 2px;
+    border-bottom-width: 2px;
     border-style: solid;
     border-color: #2d2d2d;
-    background: #2d2d2d;
-    border-top: 20px solid #f5f5f5;
+    // background: #2d2d2d;
+    // border-top: 20px solid #f5f5f5;
   }
   .author-avatar,
   .author-profile {
@@ -727,7 +730,8 @@
     margin-bottom: .25em;
   }
   .author-title a {
-    color: #fff;
+    // color: #fff;
+    color: #2d2d2d;
     text-transform: capitalize;
     text-decoration: 2px solid underline;
   }
@@ -760,7 +764,7 @@
     text-align: right;
     padding: .75em 4%;
     // background: #292929;
-    background: #000;
+    background: transparent;
   }
   .article-footer .entry-meta li.meta-read-time {
     float: left;
