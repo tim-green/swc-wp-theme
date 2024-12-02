@@ -403,6 +403,9 @@
   /* Post Navigation */
   .post-navigation {
     margin-bottom: 3.25em;
+    .nav-links{
+      min-height: 120px;
+    }
   }
   .post-navigation a .meta-nav-title {
     line-height: 1.625em;
