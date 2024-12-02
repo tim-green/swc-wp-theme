@@ -79,6 +79,7 @@
   }
   .grid-layout .site-main {
     width: 105%;
+    width: 102% !important;
   }
   /* Additional Elements
   ----------------------------------------------- */
@@ -235,7 +236,8 @@
     width: 97%;
   }
   .post-column-2 .hentry {
-    width: 48.55%;
+    // width: 48.55%;
+    width: 49.55% !important;
   }
   .post-column-3 .hentry {
     width: 32.35%;
