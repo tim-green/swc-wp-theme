@@ -1920,4 +1920,4 @@
   .entry-layout-wide.has-post-gallery .owl-gallery .owl-nav .owl-prev {
     left: initial;
     right: 2em;
-  }
+  }/* JetPack: Related Posts----------------------------------------------- */.jp-relatedposts-post-img{  filter: grayscale(1);  transition: filter ease-in-out 5ms;  &:hover{    filter: grayscale(0);  }}
