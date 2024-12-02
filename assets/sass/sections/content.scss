@@ -254,7 +254,9 @@
     background: #ffffff;
     position: relative;
     border-radius: 10px;
-    box-shadow: 0 2px 0 #e8e8e8;
+    // box-shadow: 0 2px 0 #e8e8e8;
+    box-shadow: 5px 6px 0 2px #191919;
+    border: 1px solid #191919;
   }
   .hentry .article-wrap .hentry .article-wrap {
     background: none;
@@ -452,13 +454,17 @@
     -moz-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
+    border: 1px solid #191919;
+    // box-shadow: 5px 4px 0 0px #191919;
   }
+
   .standard-layout .entry-content .more-link {
     font-size: 1em;
   }
   .entry-content .more-link:hover {
-    color: #ffffff;
-    background: #292929;
+    color: #000;
+    // background: #292929;
+    box-shadow: 5px 4px 0 0px #191919;
   }
   .widget-area .entry-content .more-link:hover {
     opacity: 1;
