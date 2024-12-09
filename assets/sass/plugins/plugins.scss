@@ -1658,6 +1658,19 @@
           background: #f5f5f5 !important;
         }
       }
+
+      .sharing-hidden{
+        .inner{
+          border: 1px solid #191919;
+          box-shadow: 5px 4px 0 0px #191919;
+          padding: 10px 0 0px 10px;
+          &::before,&::after{
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-bottom: 8px solid #191919;
+          }
+        }
+      }
     }
   }
 
