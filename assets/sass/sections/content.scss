@@ -294,6 +294,15 @@
   .swc-freebies{
     .entry-wrap{
       .entry-content{
+        a:has(img) {
+          border:none;
+          padding: 0;
+          &:hover{
+            box-shadow: none;
+          }
+        }
+
+        
         a{
           font-size: .9333333333em;
           text-decoration: none;
