@@ -741,5 +741,14 @@ function redirect_to_latest_post() {
 }
 add_action('template_redirect', 'redirect_to_latest_post');
 
-
+add_filter('body_class','add_category_to_single',10,2);
+function add_category_to_single($classes, $class) {
+    if (is_single() ) {
+        global $post;
+        foreach((get_the_category($post->ID)) as $category) {
+            $classes[] = 'swc-'.$category->category_nicename;
+        }
+    }
+    return $classes;
+}
 
