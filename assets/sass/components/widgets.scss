@@ -17,7 +17,8 @@
   }
   .widget-area .widget a:hover {
     // opacity: .75;
-    color: #fff;
+    // color: #fff;
+    color: #191919;
   
   }
   .widget-area .widget ul {
@@ -32,8 +33,9 @@
   }
   
   .widget-area .widget li:hover{
-    background: #2d2d2d;
-    color: #fff;
+    // background: #2d2d2d;
+    // color: #fff;
+    color: #191919;
     transition: ease-in 5ms;
   }
   .widget-area .widget li:before {
@@ -82,7 +84,21 @@
   .sidebar-widgets .widget,
   .sidebar-widgets a {
     color: #9a9a9a;
+
   }
+.custom-html-widget{
+  transition: all .2s ease-out;
+  &:hover{
+    color: #000;
+    box-shadow: 5px 6px 0 0px #191919;
+  }
+  img{
+    &:hover{
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+     }
+  }
+}
   .sidebar-widgets .widget .widget-title {
     padding: 1.1666666666666667em 1.8958333333333333em;
     margin: -1.8958333333333333em -1.8958333333333333em 1.8958333333333333em;
