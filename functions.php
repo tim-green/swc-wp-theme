@@ -752,3 +752,12 @@ function add_category_to_single($classes, $class) {
     return $classes;
 }
 
+/** 
+ * Enables the HTTP Strict Transport Security (HSTS) header in WordPress.
+ * Includes preloading with subdomain support. 
+ */
+
+function enable_swc_hsts_headers() {
+    header( 'Strict-Transport-Security: max-age=31536000; includeSubDomains; preload' );
+}
+add_action( 'send_headers', 'enable_swc_hsts_headers' );
