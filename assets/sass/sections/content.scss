@@ -463,6 +463,15 @@
   .entry-content {
     font-size: 0.9375em;
     margin: 0;
+
+    p{
+      margin: 0 0 15px;
+    }
+
+    h3{
+      margin-top: 1.0833333333em;
+      margin-bottom: .50em;
+    }
   }
   
   .entry-content ul{
@@ -470,7 +479,8 @@
   }
   
   .entry-content li{
-    margin-bottom: .525em;
+    // margin-bottom: .525em;
+    margin-bottom: .225em;
   }
   
   .entry-content .moretag {
