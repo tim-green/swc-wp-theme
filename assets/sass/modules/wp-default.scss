@@ -177,6 +177,14 @@ a img {
     margin-bottom: 2.1666666666666665em;
   }
   
+  .entry-content{
+    h2 a,h3 a,h4 a,h5 a{
+      &:hover{
+        text-decoration:underline 2px #292929;
+      }
+      // transition: 2s ease-in;
+    }
+  }
   .entry-content h4, .entry-content .h4{
     margin-bottom: 0.444em;
   }
