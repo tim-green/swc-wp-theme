@@ -37,8 +37,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-<script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
-
 <div id="page" class="hfeed site">
 
 	<?php
