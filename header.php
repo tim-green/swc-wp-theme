@@ -34,6 +34,9 @@
 <!-- gads -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7556856852527309" crossorigin="anonymous"></script>
 
+<!-- Start Ketch -->
+<script>!function(){window.semaphore=window.semaphore||[],window.ketch=function(){window.semaphore.push(arguments)};var e=new URLSearchParams(document.location.search),n=document.createElement("script");n.type="text/javascript", n.src="https://global.ketchcdn.com/web/v2/config/somewhat_creative/website_smart_tag/boot.js", n.defer=n.async=!0,document.getElementsByTagName("head")[0].appendChild(n)}();</script>
+<!-- End Ketch -->
 </head>
 
 <body <?php body_class(); ?>>
