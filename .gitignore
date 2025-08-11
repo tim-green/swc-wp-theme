@@ -7,3 +7,7 @@ node_modules
 style to import into the sass files.css
 .cosine
 includes/plugins/acf/acf-widget.php
+bbpress
+bbpress.php
+app.min.css
+app.min.css.map
