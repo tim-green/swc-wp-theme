@@ -78,7 +78,7 @@ function publisher_setup_theme() {
 	
   //add_image_size( 'publisher-post-thumb-small', 400, 9999, false ); // Post Thumbnail Small
 	//add_image_size( 'publisher-post-thumb-square', 400, 400, true ); // Post Thumbnail Square
-
+	
 /**
  * Remove WordPress Emoji	 */
 remove_action('wp_head', 'print_emoji_detection_script', 7);
@@ -657,6 +657,11 @@ function wp_custom_logo() {
     //hook into the administrative header output
     add_action('login_enqueue_scripts', 'wp_custom_logo');
 
+	// Login url
+    add_filter( 'login_headerurl', 'swc_link_logo_admin' );
+    function swc_link_logo_admin( $url ) {
+        return 'https://www.somewhatcreative.net/'; // Replace with your desired URL
+    }
 
 //Automatically set the image Title, Alt-Text, Caption & Description upon upload
 add_action( 'add_attachment', 'my_set_image_meta_upon_image_upload' );
