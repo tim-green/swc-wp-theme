@@ -252,8 +252,13 @@ a img {
     margin-bottom: 1.7333333333333334em;
     max-width: 100%;
     background: #2d2d2d;
+    border: 20px solid #e3e3e3;
     overflow: auto;
     tab-size: 4;
+    transition: ease-in-out 500ms;
+    &:hover{
+     box-shadow: 5px 6px 0 0px #191919;
+    }
   }
   code,
   kbd,
