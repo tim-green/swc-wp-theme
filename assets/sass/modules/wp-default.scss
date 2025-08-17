@@ -264,11 +264,12 @@ a img {
   }
   code {
     color: #fff;
-    padding: .260em .25em;    
+    padding: .260em .25em;
+    padding-left: 0;    
     background-color: #2d2d2d;
     border-radius: 3px;
     &::selection{
-      background: none;
+      // background: none;
     }
   }
   abbr,
