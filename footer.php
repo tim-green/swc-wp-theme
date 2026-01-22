@@ -63,12 +63,8 @@
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "hnnmsbao42");
-</script>
 
-<!-- datapulse -->
-<script defer type="text/javascript" src="https://datapulse.app/datapulse.min.js" id="datapulse"           data-endpoint="https://datapulse.app/api/v1/event" data-workspace="cllwco0d65v1sdl371vztd66a" ></script>
-<!-- new relic -->
-<script type="text/javascript">
+// <!-- new relic -->
 ;window.NREUM||(NREUM={});NREUM.init={distributed_tracing:{enabled:true},privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}};
 
 ;NREUM.loader_config={accountID:"4522040",trustKey:"4522040",agentID:"1588968921",licenseKey:"NRJS-d3a209fb3e62f24245c",applicationID:"1588968921"};
