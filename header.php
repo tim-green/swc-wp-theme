@@ -35,10 +35,6 @@
 <!-- Start Ketch -->
 <script>!function(){window.semaphore=window.semaphore||[],window.ketch=function(){window.semaphore.push(arguments)};var e=new URLSearchParams(document.location.search),n=document.createElement("script");n.type="text/javascript", n.src="https://global.ketchcdn.com/web/v2/config/somewhat_creative/website_smart_tag/boot.js", n.defer=n.async=!0,document.getElementsByTagName("head")[0].appendChild(n)}();</script>
 <!-- End Ketch -->
-
-<!-- Start Peasy -->
-<script src="https://cdn.peasy.so/peasy.js" data-website-id="01jqmj7j492mkam0meer5yy7kf" async></script>
-<!-- End Peasy -->
 </head>
 
 <body <?php body_class(); ?>>
