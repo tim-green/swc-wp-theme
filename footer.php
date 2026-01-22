@@ -9,7 +9,7 @@
  */
 ?>
 
-			<?php do_action( 'publisher_action_below_content_area' ); ?>
+		<?php do_action( 'publisher_action_below_content_area' ); ?>
 
 		</div><!-- .container -->
 
@@ -36,17 +36,7 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-<!-- Hotjar Tracking Code -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:294102,hjsv:5};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84692209-1"></script>
 <script>
@@ -55,9 +45,18 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-84692209-1');
-</script>
-<!-- Clarity Tracking Code -->
-<script type="text/javascript">
+
+// <!-- Hotjar Tracking Code -->
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:294102,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+
+// <!-- Clarity Tracking Code -->
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
