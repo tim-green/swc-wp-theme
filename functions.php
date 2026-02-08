@@ -163,12 +163,6 @@ function publisher_enqueue_scripts() {
 	// wp_enqueue_style( 'publisher-style-dark', get_stylesheet_directory_uri() . '/dark.css', array( 'publisher-style' ) );
 
 	/**
-     * IE < 10 Stylesheet
-     */
-	wp_enqueue_style( 'publisher-style-ie', get_stylesheet_directory_uri() . '/includes/css/publisher-ie.css', array( 'publisher-style' ) );
-	wp_style_add_data( 'publisher-style-ie', 'conditional', 'lte IE 9' );
-
-	/**
      * Add RTL Stylesheet
      */
 	if ( is_rtl() ) {
