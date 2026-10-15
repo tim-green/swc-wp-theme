@@ -36,6 +36,10 @@
 <!-- Start Ketch -->
 <script>!function(){window.semaphore=window.semaphore||[],window.ketch=function(){window.semaphore.push(arguments)};var e=new URLSearchParams(document.location.search),n=document.createElement("script");n.type="text/javascript", n.src="https://global.ketchcdn.com/web/v2/config/somewhat_creative/website_smart_tag/boot.js", n.defer=n.async=!0,document.getElementsByTagName("head")[0].appendChild(n)}();</script>
 <!-- End Ketch -->
+
+<!-- Start Klar-->
+<script src="https://klar.alphabros.eu/klar.v2.js" data-site-id="dc2b5d67-6dc5-497c-af50-c5999ea3f755" data-key="9bc028c4-ac04-41c8-8f4f-869cd75bd152" defer ></script>
+<!-- End Klar -->
 </head>
 
 <body <?php body_class(); ?>>
